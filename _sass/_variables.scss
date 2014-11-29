@@ -1,0 +1,84 @@
+/* Background-Color */
+$bg: #FDFDFD;
+$black: #333;
+$body-black: #353535;
+$gray: #767676;
+$lightgray: #D5D5D5;
+$red: #a53838;
+$lightred: #C07474;
+$darkred: #632222;
+
+$bf: 'ratio', 'calluna-sans', helvetica, sans-serif;
+$serif: 'calluna', georgia, serif;
+
+$lh: 1.526315789;
+$mb: 1.526315789em;
+/* line-height = 29px */
+
+$fs: 1.1875em; /* 19px */
+$fs1: 2.210526316em; /* 46.388 */
+$fs2: 1.684210526em; /* 37.11 */
+$fs3: 1.315789474em; /* 29.688 */
+$fs4: 1em; /* 23.75 */
+$fs5: 0.8em; /* 15.2 */
+$fs6: 0.65em; /* 12.76 */
+$fs7: 2.827em; /* 62.198 */
+/*$fs1: 3.998em; /* 83.949px */
+/*$fs2: 2.827em; /* 59.37px */
+/*$fs3: 1.999em; /* 41.987px */
+/*$fs4: 1.414em; /* 29.694px */
+/*$fs5: 0.707em; /* 14.851px */
+/*$fs6: 0.5em; /* 10.503px */
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin transition($transition...) {
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin soft-link() {
+	-moz-transition: background-color 500ms ease, color 500ms ease;
+	-o-transition: background-color 500ms ease, color 500ms ease;
+	-webkit-transition: background-color 500ms ease, color 500ms ease;
+	transition: background-color 500ms ease, color 500ms ease;
+}
+
+/* read more */
+@-moz-keyframes bounceOut {
+        0%{ padding: 0; opacity:1;}
+        33%{ padding: 0.2em; opacity:1; }
+        66%{ padding: 0.35em; opacity:1;}
+        100%{ padding: 0.3em; opacity:1;}
+}
+
+@-webkit-keyframes bounceOut {
+0%{ padding: 0; opacity:1;}
+33%{ padding: 0.2em; opacity:1; }
+66%{ padding: 0.35em; opacity:1;}
+100%{ padding: 0.3em; opacity:1;}
+}
+
+/* nav */
+@-moz-keyframes navBounce {
+  0%{ padding: 0; opacity:1;}
+  33%{ padding: 0.1em 0.3em .05em; opacity:1; }
+  66%{ padding: 0.25em 0.45em .1em; opacity:1;}
+  100%{ padding: 0.2em 0.4em 0em; opacity:1;}
+}
+
+@-webkit-keyframes navBounce {
+0%{ padding: 0; opacity:1;}
+33%{ padding: 0.1em 0.3em .05em; opacity:1; }
+66%{ padding: 0.25em 0.45em .1em; opacity:1;}
+100%{ padding: 0.2em 0.4em 0em; opacity:1;}
+}

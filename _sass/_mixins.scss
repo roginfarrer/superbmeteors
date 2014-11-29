@@ -1,0 +1,55 @@
+@mixin transform($transform...) {
+  -ms-transform: $transform;
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+@mixin animation($animation...) {
+  -ms-animation: $animation;
+  -moz-animation: $animation;
+  -o-animation: $animation;
+  -webkit-animation: $animation;
+  animation: $animation;
+}
+
+@mixin animation-delay($animation-delay) {
+  animation-delay: $animation-delay;
+  -webkit-animation-delay: $animation-delay;
+}
+
+@mixin animation-fill-mode($fill) {
+  -webkit-animation-fill-mode: $fill;
+          animation-fill-mode: $fill;
+}
+
+.fadeIn1 {
+  @include animation(fade-in 1.2s);
+}
+
+.fadeIn2 {
+  @include animation(fade-in 1.2s);
+  @include animation-delay(1s);
+  @include animation-fill-mode(backwards);
+}
+
+@keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
