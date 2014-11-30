@@ -6,7 +6,7 @@ p {
   margin-bottom: $mb;
 }
 
-article {
+article, div[class*="navigation"] p {
   a, a:visited {
     color: $red;
     font-weight: 500;
