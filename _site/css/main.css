@@ -903,15 +903,17 @@ div[class*="navigation"] {
 /* line 211, ../_sass/_layout.scss */
 .share ul li {
   display: inline-block;
+  font-size: 1.5em;
   margin-left: 0;
   padding-right: 0.5em;
 }
-/* line 215, ../_sass/_layout.scss */
+/* line 216, ../_sass/_layout.scss */
 .share ul li img {
   margin-bottom: 0;
 }
-/* line 218, ../_sass/_layout.scss */
-.share ul li a {
+/* line 219, ../_sass/_layout.scss */
+.share ul li a, .share ul li a:visited {
+  color: #767676;
   opacity: 0.4;
   -ms-transition: opacity 200ms ease;
   -moz-transition: opacity 200ms ease;
@@ -919,7 +921,7 @@ div[class*="navigation"] {
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
 }
-/* line 222, ../_sass/_layout.scss */
+/* line 224, ../_sass/_layout.scss */
 .share ul li a:hover {
   opacity: 1;
   -ms-transition: opacity 200ms ease;
@@ -929,43 +931,43 @@ div[class*="navigation"] {
   transition: opacity 200ms ease;
 }
 
-/* line 230, ../_sass/_layout.scss */
+/* line 232, ../_sass/_layout.scss */
 img[class*="-share"] {
   height: 1.1em;
   width: 1.1em;
 }
 
 /************** PAGE STYLES **************/
-/* line 239, ../_sass/_layout.scss */
+/* line 241, ../_sass/_layout.scss */
 .page h1 + p {
   margin-top: 2em;
 }
 
-/* line 244, ../_sass/_layout.scss */
+/* line 246, ../_sass/_layout.scss */
 .page-archives p {
   margin-bottom: 0;
 }
 
-/* line 249, ../_sass/_layout.scss */
+/* line 251, ../_sass/_layout.scss */
 .page-archives-dates {
   text-align: right;
   width: 6em;
 }
 
-/* line 254, ../_sass/_layout.scss */
+/* line 256, ../_sass/_layout.scss */
 .page-archives-titles {
   padding-left: 1em;
 }
 
-/* line 258, ../_sass/_layout.scss */
+/* line 260, ../_sass/_layout.scss */
 .work-block {
   list-style-type: none;
 }
-/* line 260, ../_sass/_layout.scss */
+/* line 262, ../_sass/_layout.scss */
 .work-block li:first-child {
   padding-top: none;
 }
-/* line 263, ../_sass/_layout.scss */
+/* line 265, ../_sass/_layout.scss */
 .work-block li {
   padding: 1.52632em 0 3.05263em;
   margin: 0 auto;
@@ -975,7 +977,7 @@ img[class*="-share"] {
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-/* line 268, ../_sass/_layout.scss */
+/* line 270, ../_sass/_layout.scss */
 .work-block li:hover {
   -ms-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -984,17 +986,17 @@ img[class*="-share"] {
   transition: all 500ms ease;
   opacity: 0.8;
 }
-/* line 272, ../_sass/_layout.scss */
+/* line 274, ../_sass/_layout.scss */
 .work-block h2, .work-block h5 {
   color: #FDFDFD;
 }
-/* line 275, ../_sass/_layout.scss */
+/* line 277, ../_sass/_layout.scss */
 .work-block h5 {
   margin-top: 0;
   text-align: center;
 }
 
-/* line 281, ../_sass/_layout.scss */
+/* line 283, ../_sass/_layout.scss */
 .theater-block {
   background-color: #8678A0;
   -webkit-border-radius: 10px 0 0 10px;
@@ -1003,7 +1005,7 @@ img[class*="-share"] {
   border-radius: 10px 0 0 10px;
 }
 
-/* line 286, ../_sass/_layout.scss */
+/* line 288, ../_sass/_layout.scss */
 .design-block {
   background-color: #3D7154;
   -webkit-border-radius: 0 10px 10px 0;
@@ -1012,33 +1014,33 @@ img[class*="-share"] {
   border-radius: 0 10px 10px 0;
 }
 
-/* line 291, ../_sass/_layout.scss */
+/* line 293, ../_sass/_layout.scss */
 .background-cover {
   background-position: 50% 50%;
   background-repeat: no-repeat no-repeat;
   background-size: cover;
 }
 
-/* line 297, ../_sass/_layout.scss */
+/* line 299, ../_sass/_layout.scss */
 .work-thumb {
   margin: 0 auto;
 }
-/* line 299, ../_sass/_layout.scss */
+/* line 301, ../_sass/_layout.scss */
 .work-thumb div {
   height: 11em;
 }
-/* line 302, ../_sass/_layout.scss */
+/* line 304, ../_sass/_layout.scss */
 .work-thumb p {
   font-weight: bold;
   margin-top: 1.52632em;
 }
 
-/* line 308, ../_sass/_layout.scss */
+/* line 310, ../_sass/_layout.scss */
 h1.error {
   font-weight: bold;
 }
 
-/* line 310, ../_sass/_layout.scss */
+/* line 312, ../_sass/_layout.scss */
 .about-photo {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1046,13 +1048,13 @@ h1.error {
   border-radius: 5px;
 }
 
-/* line 314, ../_sass/_layout.scss */
+/* line 316, ../_sass/_layout.scss */
 .port-chart {
   text-align: center;
   margin: 0 auto;
 }
 
-/* line 317, ../_sass/_layout.scss */
+/* line 319, ../_sass/_layout.scss */
 .port-chart img {
   max-width: 100%;
   -webkit-font-smoothing: antialiased;

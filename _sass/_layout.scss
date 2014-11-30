@@ -210,12 +210,14 @@ div[class*="navigation"] {
     margin-top: -0.5em;
     li {
       display: inline-block;
+      font-size: 1.5em;
       margin-left: 0;
       padding-right: 0.5em;
       img {
         margin-bottom: 0;
       }
-      a {
+      a, a:visited {
+        color: $gray;
         opacity: 0.4;
         @include transition(opacity 200ms ease);
       }
