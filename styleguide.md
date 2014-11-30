@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Style Guide
-permalink: /styleguide
+permalink: /styleguide/
 ---
 
 This page exists to demonstrate the visual styles of the various elements that comprise the design of this site. I got the idea and some of the text from [Dan Eden](http://daneden.com/styleguide). This is not only for my own benefit, as the designer and maintainer, but also to satisfy the curiosity of those interested in such things (like myself). 

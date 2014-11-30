@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Work
-permalink: /work
+permalink: /work/
 ---
 
 **This page isn't ready yet!** I'm working on it.
