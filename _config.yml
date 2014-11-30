@@ -8,8 +8,8 @@ permalink:   /:title.html
 
 
 base_url: ""
-description: "A blog covering Tech News, Reviews, Guides and Startups from developer and startup guy Paul Stamatiou."
-root_desc: "PaulStamatiou.com - Tech News, Reviews and Guides"
+description: "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
+root_desc: "RoginFarrer.com — Tech, Design, and Theater"
 
 rdiscount:
   extensions: []
