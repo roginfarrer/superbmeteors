@@ -903,7 +903,7 @@ div[class*="navigation"] {
 /* line 211, ../_sass/_layout.scss */
 .share ul li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-left: 0;
   padding-right: 0.5em;
 }
