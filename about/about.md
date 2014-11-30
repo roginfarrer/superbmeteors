@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 My name is [Rogin](http://twitter.com/RoginFarrer). I'm a senior drama major at Vassar College, where I do mostly design and technical theater. In my free time I like to write and design and build web sites.
