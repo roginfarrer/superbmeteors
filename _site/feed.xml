@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     
-    <title type="text" xml:lang="en"></title>
+    <title type="text" xml:lang="en">RoginFarrer.com — Tech, Design, and Theater</title>
     <link type="application/atom+xml" href="http://paulstamatiou.com/feed/" rel="self"/>
     <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2014-11-29T23:41:22-05:00</updated>
+    <updated>2014-11-30T01:13:05-05:00</updated>
     <id>http://roginfarrer.com</id>
     <author>
         <name>Rogin Farrer</name>
@@ -14,35 +14,36 @@
     
     <entry>
         <title>Hi, I'm Rogin</title>
-        <link href="http://roginfarrer.com/updates/2014/11/29/hi-im-rogin.html"/>
+        <link href="http://roginfarrer.com/hi-im-rogin.html"/>
         <updated>2014-11-29T00:00:00-05:00</updated>
-        <id>http://roginfarrer.com/updates/2014/11/29/hi-im-rogin</id>
-        <content type="html">&lt;p&gt;For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less. &lt;/p&gt;
+        <id>http://roginfarrer.com/hi-im-rogin</id>
+        <content type="html">&lt;p&gt;For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less.&lt;/p&gt;
 
 &lt;p&gt;I haven’t published a post on &lt;a href=&quot;http://thedapperscholar.com&quot;&gt;The Dapper Scholar&lt;/a&gt; in 7 or 8 months, which I’ve decided to retire. I do keep a journal semi-regularly, but aside from the occasional &lt;a href=&quot;http://twitter.com/RoginFarrer&quot;&gt;Twitter post&lt;/a&gt;, I rarely write anything for other people to see. But with a revamped roginfarrer.com, I’m making a comeback. This is hopefully the first post of what will be a regular chain of posts for a good while.&lt;/p&gt;
 
-&lt;h3 id=&quot;so-what-is-this-about&quot;&gt;So… what is this about?&lt;/h3&gt;
+&lt;h3&gt;So… what is this about?&lt;/h3&gt;
 
-&lt;p&gt;I don’t want to put any constraints on my writing right now because I’m not sure what I want to focus on. I want to write about the things I care about, and maybe someday the topic of this site will flesh out into a focused subject. &lt;/p&gt;
+&lt;p&gt;I don’t want to put any constraints on my writing right now because I’m not sure what I want to focus on. I want to write about the things I care about, and maybe someday the topic of this site will flesh out into a focused subject.&lt;/p&gt;
 
 &lt;p&gt;However, I &lt;em&gt;can&lt;/em&gt; drop a few hints about the things running through my mind, which will give you an idea of what I’ll be writing about soon:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;It’s my senior year of college, and I’m starting to worry about getting a job after graduation. Given my skill set and field (drama), most of the opportunities I’m qualified for are unpaid internships or internships that house you with very low pay.&lt;/li&gt;
-  &lt;li&gt;In case it’s not obvious, I like theater and the arts. That might come up.&lt;/li&gt;
-  &lt;li&gt;I’ve thought a lot about the line between boy and man, child and adult, for a long while now. The distinction is becoming ever more relevant in my life as graduation day approaches. At what point do I cross over into adulthood, if I haven’t already? Does adulthood mean financial independence? Physical independence? Having the ability to contribute to society, rather than take from it?&lt;/li&gt;
-  &lt;li&gt;I’m at the cusp at my weight loss goal, and it’s been difficult physically and emotionally. My insecurities about my body are as strong as they were at the beginning of journey. My diet is primarily paleo and I’ve been practicing &lt;a href=&quot;http://stronglifts.com&quot;&gt;Stronglifts 5x5&lt;/a&gt; for a while now.&lt;/li&gt;
-  &lt;li&gt;I’m wondering about why I’m doing this (that is, writing this blog). I wonder if I can keep this up in the long term. I’m wondering how much I’m doing this for myself and how much I’m doing this for attention and an audience.&lt;/li&gt;
-  &lt;li&gt;I’ve had the web design bug for a while now, and I love talking about typography, CMSs, and workflows.&lt;/li&gt;
-  &lt;li&gt;I’m still as much a tech nerd and Apple fanboy as I’ve ever been. I think way too much about productivity and productivity workflows. &lt;/li&gt;
-  &lt;li&gt;I have a lot of the same interests as I always have: fountain pens, menswear, design, literature, and philosophy.&lt;/li&gt;
+&lt;li&gt;It’s my senior year of college, and I’m starting to worry about getting a job after graduation. Given my skill set and field (drama), most of the opportunities I’m qualified for are unpaid internships or internships that house you with very low pay.&lt;/li&gt;
+&lt;li&gt;In case it’s not obvious, I like theater and the arts. That might come up.&lt;/li&gt;
+&lt;li&gt;I’ve thought a lot about the line between boy and man, child and adult, for a long while now. The distinction is becoming ever more relevant in my life as graduation day approaches. At what point do I cross over into adulthood, if I haven&#39;t already? Does adulthood mean financial independence? Physical independence? Having the ability to contribute to society, rather than take from it?&lt;/li&gt;
+&lt;li&gt;I’m at the cusp at my weight loss goal, and it’s been difficult physically and emotionally. My insecurities about my body are as strong as they were at the beginning of journey. My diet is primarily paleo and I’ve been practicing &lt;a href=&quot;http://stronglifts.com&quot;&gt;Stronglifts 5x5&lt;/a&gt; for a while now.&lt;/li&gt;
+&lt;li&gt;I’m wondering about why I’m doing this (that is, writing this blog). I wonder if I can keep this up in the long term. I’m wondering how much I’m doing this for myself and how much I’m doing this for attention and an audience.&lt;/li&gt;
+&lt;li&gt;I’ve had the web design bug for a while now, and I love talking about typography, CMSs, and workflows.&lt;/li&gt;
+&lt;li&gt;I’m still as much a tech nerd and Apple fanboy as I’ve ever been. I think way too much about productivity and productivity workflows.&lt;/li&gt;
+&lt;li&gt;I have a lot of the same interests as I always have: fountain pens, menswear, design, literature, and philosophy.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;Whew! I have way more to talk about than I thought.&lt;/p&gt;
 
 &lt;p&gt;If you’d like to get updates from me, &lt;a href=&quot;&quot;&gt;sign up for blog posts via email&lt;/a&gt; (I promise, no spam!), or &lt;a href=&quot;http://twitter.com/RoginFarrer&quot;&gt;follow me on Twitter&lt;/a&gt;, or &lt;a href=&quot;/feeds/rss&quot;&gt;grab my RSS feed&lt;/a&gt; if that’s your thing.&lt;/p&gt;
 
-&lt;p&gt;I’m also not using comments. At least not for now. I’ve had them on websites before, and I got insecure about not having any comments on my posts. If you have any thoughts, &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#114;&amp;#111;&amp;#103;&amp;#105;&amp;#110;&amp;#064;&amp;#114;&amp;#111;&amp;#103;&amp;#105;&amp;#110;&amp;#102;&amp;#097;&amp;#114;&amp;#114;&amp;#101;&amp;#114;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;shoot me a message via email&lt;/a&gt; or on &lt;a href=&quot;http://twitter.com/RoginFarrer&quot;&gt;Twitter&lt;/a&gt;! I’d love to know if you’re reading.&lt;/p&gt;
+&lt;p&gt;I’m also not using comments. At least not for now. I’ve had them on websites before, and I got insecure about not having any comments on my posts. If you have any thoughts, &lt;a href=&quot;mailto:rogin@roginfarrer.com&quot;&gt;shoot me a message via email&lt;/a&gt; or on &lt;a href=&quot;http://twitter.com/RoginFarrer&quot;&gt;Twitter&lt;/a&gt;! I’d love to know if you’re reading.&lt;/p&gt;
 
 &lt;p&gt;That’s it for now. ’Til next time!&lt;/p&gt;
 

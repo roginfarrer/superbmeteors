@@ -18,6 +18,8 @@ Whether I'm creating for the page or the stage, I'm passionate about **expressio
 
 To be honest, I'm not sure yet. I like reading about and talking about tech, Apple, and design, so I'm sure you'll see a lot of that here. I can bet that a few of my other interests will slip in here, be it theater, productivity hacks, eating paleo, strength training, and well-being.
 
+If you’d like to get updates from me, [sign up for blog posts via email]() (I promise, no spam!), or [follow me on Twitter](http://twitter.com/RoginFarrer), or [grab my RSS feed](/feed.xml/) if that’s your thing.
+
 ### Colophon
 
-I designed and built this site with [Anchor](http://anchorcms.com), [Sublime Text](http://sublimetext.com), [Sass](http://sass-lang.com), [Compass](http://compass-style.org), and [Typekit](http://typekit.com). All copy is set in Ratio. Feel free to check out the [style guide](/styleguide).
+I designed and built this site with [Jekyll](http://jekyllrb.com), [Github Pages](http://github.com) for hosting, [Sublime Text](http://sublimetext.com), [Sass](http://sass-lang.com), [Compass](http://compass-style.org), and [Typekit](http://typekit.com). All copy is set in Ratio. Feel free to check out the [style guide](/styleguide).
