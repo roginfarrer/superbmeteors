@@ -6,7 +6,7 @@ pygments:    true
 markdown:    rdiscount
 permalink:   /:title.html
 
-
+name: RoginFarrer.com
 base_url: ""
 description: "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
 root_desc: "RoginFarrer.com — Tech, Design, and Theater"
