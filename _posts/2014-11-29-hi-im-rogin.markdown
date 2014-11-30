@@ -25,7 +25,7 @@ However, I *can* drop a few hints about the things running through my mind, whic
 
 Whew! I have way more to talk about than I thought.
 
-If you’d like to get updates from me, [sign up for blog posts via email]() (I promise, no spam!), or [follow me on Twitter](http://twitter.com/RoginFarrer), or [grab my RSS feed](/feeds/rss) if that’s your thing.
+If you’d like to get updates from me, [sign up for blog posts via email]() (I promise, no spam!), or [follow me on Twitter](http://twitter.com/RoginFarrer), or [grab my RSS feed](/feed.xml/) if that’s your thing.
 
 I’m also not using comments. At least not for now. I’ve had them on websites before, and I got insecure about not having any comments on my posts. If you have any thoughts, [shoot me a message via email](mailto:rogin@roginfarrer.com) or on [Twitter](http://twitter.com/RoginFarrer)! I’d love to know if you’re reading.
 
