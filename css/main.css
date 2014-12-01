@@ -85,13 +85,6 @@ a {
 /* 23.75 */
 /* 15.2 */
 /* 12.76 */
-/* 62.198 */
-/*$fs1: 3.998em; /* 83.949px */
-/*$fs2: 2.827em; /* 59.37px */
-/*$fs3: 1.999em; /* 41.987px */
-/*$fs4: 1.414em; /* 29.694px */
-/*$fs5: 0.707em; /* 14.851px */
-/*$fs6: 0.5em; /* 10.503px */
 /* read more */
 @-moz-keyframes bounceOut {
   0% {
@@ -1177,16 +1170,16 @@ img.rogin-icon:hover {
 @media screen and (max-width: 700px) {
   /* line 2, ../_sass/_mobile.scss */
   body {
-    font-size: 1.125em;
+    font-size: 1.063em;
     /* 18px */
-  }
-
-  /* line 5, ../_sass/_mobile.scss */
-  p {
-    line-height: 1.45;
   }
 }
 @media screen and (max-width: 500px) {
+  /* line 8, ../_sass/_mobile.scss */
+  h1 {
+    float: none;
+  }
+
   /* line 11, ../_sass/_mobile.scss */
   .home {
     display: block;
@@ -1206,10 +1199,5 @@ img.rogin-icon:hover {
   body {
     font-size: 1.063em;
     /* 17px */
-  }
-
-  /* line 25, ../_sass/_mobile.scss */
-  p {
-    line-height: 1.4;
   }
 }
