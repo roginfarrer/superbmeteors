@@ -320,26 +320,26 @@ a {
 p {
   color: #353535;
   font-family: "ratio", "calluna-sans", helvetica, sans-serif;
-  font-size: 1.1875em;
   line-height: 1.52632;
   font-weight: 400;
   margin-bottom: 1.52632em;
 }
 
-/* line 11, ../_sass/_type.scss */
+/* line 10, ../_sass/_type.scss */
 article a, article a:visited, div[class*="navigation"] p a, div[class*="navigation"] p a:visited {
   color: #a53838;
   font-weight: 500;
   text-decoration: underline;
 }
-/* line 16, ../_sass/_type.scss */
+/* line 15, ../_sass/_type.scss */
 article a:hover, article a:visited:hover, div[class*="navigation"] p a:hover, div[class*="navigation"] p a:visited:hover {
   color: #632222;
   text-decoration: underline;
 }
 
-/* line 22, ../_sass/_type.scss */
+/* line 21, ../_sass/_type.scss */
 h1 {
+  font-size: 19px;
   font-weight: 500;
   float: left;
   margin: 0;
@@ -597,7 +597,7 @@ body {
   background-color: #FDFDFD;
   border-top: 6px solid #a53838;
   font-family: "ratio", "calluna-sans", helvetica, sans-serif;
-  font-size: 100%;
+  font-size: 1.1875em;
   height: 100%;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -665,7 +665,7 @@ article {
 /* line 56, ../_sass/_layout.scss */
 nav {
   font-weight: 500;
-  font-size: 0.84em;
+  font-size: 16px;
   float: right;
   margin: 0;
   line-height: 1.52632;

@@ -1,7 +1,6 @@
 p {
   color: $body-black;
   font-family: $bf;
-  font-size: $fs;
   line-height: $lh;
   font-weight: 400;
   margin-bottom: $mb;
@@ -20,6 +19,7 @@ article, div[class*="navigation"] p {
 }
 
 h1 {
+  font-size: 19px;
   font-weight: 500;
   float: left;
   margin: 0;
