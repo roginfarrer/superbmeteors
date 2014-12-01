@@ -1231,8 +1231,6 @@ img.rogin-icon:hover {
   .read-more {
     display: block;
     float: none;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
   }
 }
