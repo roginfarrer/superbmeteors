@@ -1179,7 +1179,7 @@ img.rogin-icon:hover {
     /* 18px */
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   /* line 8, ../_sass/_mobile.scss */
   header {
     margin: 0 auto;
