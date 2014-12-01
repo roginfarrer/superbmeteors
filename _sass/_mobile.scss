@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: 500px) {
+	h1 {
+		float: none;
+	}
 	.home {
 		display: block;
 		margin: 0 auto $mb;
