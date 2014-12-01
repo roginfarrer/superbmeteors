@@ -7,6 +7,7 @@
 @media screen and (max-width: 500px) {
 	h1 {
 		float: none;
+		margin-bottom: $mb;
 	}
 	.home {
 		display: block;
@@ -18,6 +19,9 @@
 		float: none;
 		margin: 0 auto;
 		text-align: center;
+		ul li {
+			margin-right: 0.5em;
+		}
 	}
 	body { 
 		font-size: $fs_smaller; /* 17px */
