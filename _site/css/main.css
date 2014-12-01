@@ -1180,30 +1180,35 @@ img.rogin-icon:hover {
 }
 @media screen and (max-width: 550px) {
   /* line 8, ../_sass/_mobile.scss */
+  header {
+    margin: 0 auto;
+  }
+
+  /* line 11, ../_sass/_mobile.scss */
   h1 {
     float: none;
   }
 
-  /* line 11, ../_sass/_mobile.scss */
+  /* line 14, ../_sass/_mobile.scss */
   .home {
     display: block;
-    margin: 0 auto 0.76316em;
+    margin: 0.50877em auto;
     text-align: center;
   }
 
-  /* line 16, ../_sass/_mobile.scss */
+  /* line 19, ../_sass/_mobile.scss */
   nav {
     display: block;
     float: none;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 21, ../_sass/_mobile.scss */
+  /* line 24, ../_sass/_mobile.scss */
   nav ul li {
-    margin: 0 0.4em;
+    margin: 0 0.55em;
   }
 
-  /* line 25, ../_sass/_mobile.scss */
+  /* line 28, ../_sass/_mobile.scss */
   body {
     font-size: 1.063em;
     /* 17px */
