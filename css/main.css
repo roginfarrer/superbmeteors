@@ -1205,71 +1205,71 @@ img.rogin-icon:hover {
   .next {
     margin-left: 1em;
   }
-
-  /* line 24, ../_sass/_mobile.scss */
-  .alignleft, .alignright {
-    width: 100%;
-  }
 }
 @media screen and (max-width: 700px) {
-  /* line 30, ../_sass/_mobile.scss */
+  /* line 27, ../_sass/_mobile.scss */
   body {
     font-size: 1.125em;
     /* 18px */
   }
 
-  /* line 33, ../_sass/_mobile.scss */
+  /* line 30, ../_sass/_mobile.scss */
   img[class*="-follow"] {
     width: 2em;
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 39, ../_sass/_mobile.scss */
+  /* line 36, ../_sass/_mobile.scss */
   header {
     margin: 0 auto;
     width: 100%;
   }
 
-  /* line 43, ../_sass/_mobile.scss */
+  /* line 40, ../_sass/_mobile.scss */
   h1 {
     float: none;
   }
 
-  /* line 46, ../_sass/_mobile.scss */
+  /* line 43, ../_sass/_mobile.scss */
   .home {
     display: block;
     margin: 0.50877em auto;
     text-align: center;
   }
 
-  /* line 51, ../_sass/_mobile.scss */
+  /* line 48, ../_sass/_mobile.scss */
   nav {
     display: block;
     float: none;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 56, ../_sass/_mobile.scss */
+  /* line 53, ../_sass/_mobile.scss */
   nav ul li {
     margin: 0 0.7em;
   }
 
-  /* line 60, ../_sass/_mobile.scss */
+  /* line 57, ../_sass/_mobile.scss */
   body {
     font-size: 1.063em;
     /* 17px */
   }
 
-  /* line 63, ../_sass/_mobile.scss */
+  /* line 60, ../_sass/_mobile.scss */
   .loop-meta {
     display: block;
     float: none;
     margin-bottom: 0.76316em;
   }
 
-  /* line 68, ../_sass/_mobile.scss */
+  /* line 65, ../_sass/_mobile.scss */
   .read-more {
     float: none;
+  }
+
+  /* line 68, ../_sass/_mobile.scss */
+  .alignleft, .alignright {
+    width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
