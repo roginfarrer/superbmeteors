@@ -1,6 +1,6 @@
 @media screen and (max-width: 700px) {
-	body {
-		font-size: $fs_smaller; /* 18px */
+	article {
+		font-size: $fs_small; /* 18px */
 	}
 }
 
@@ -25,7 +25,7 @@
 			margin: 0 0.7em;
 		}
 	}
-	body { 
+	article { 
 		font-size: $fs_smaller; /* 17px */
 	}
 }

@@ -1173,8 +1173,8 @@ img.rogin-icon:hover {
 
 @media screen and (max-width: 700px) {
   /* line 2, ../_sass/_mobile.scss */
-  body {
-    font-size: 1.063em;
+  article {
+    font-size: 1.125em;
     /* 18px */
   }
 }
@@ -1209,7 +1209,7 @@ img.rogin-icon:hover {
   }
 
   /* line 28, ../_sass/_mobile.scss */
-  body {
+  article {
     font-size: 1.063em;
     /* 17px */
   }
