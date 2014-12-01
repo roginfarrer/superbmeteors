@@ -1197,11 +1197,10 @@ img.rogin-icon:hover {
   }
   /* line 22, ../_sass/_mobile.scss */
   nav ul li {
-    margin-right: 0;
-    width: 33.3%;
+    margin-right: 0.3em;
   }
 
-  /* line 27, ../_sass/_mobile.scss */
+  /* line 26, ../_sass/_mobile.scss */
   body {
     font-size: 1.063em;
     /* 17px */
