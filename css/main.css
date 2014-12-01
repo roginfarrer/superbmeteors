@@ -1223,12 +1223,14 @@ img.rogin-icon:hover {
     margin-bottom: 0.76316em;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
-  /* line 38, ../_sass/_mobile.scss */
+  /* line 39, ../_sass/_mobile.scss */
   .read-more {
     float: none;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 }
