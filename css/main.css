@@ -1216,4 +1216,19 @@ img.rogin-icon:hover {
     font-size: 1.063em;
     /* 17px */
   }
+
+  /* line 32, ../_sass/_mobile.scss */
+  .loop-meta {
+    float: none;
+    margin-bottom: 0.76316em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 38, ../_sass/_mobile.scss */
+  .read-more {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

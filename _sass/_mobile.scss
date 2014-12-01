@@ -29,4 +29,15 @@
 	body { 
 		font-size: $fs_smaller; /* 17px */
 	}
+	.loop-meta {
+		float: none;
+		margin-bottom: $mb/2;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.read-more {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
