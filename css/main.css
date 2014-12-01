@@ -678,7 +678,7 @@ nav ul li {
   display: inline-block;
   line-height: 1.52632;
   padding: 0;
-  margin: 0 1em;
+  margin-right: 1em;
 }
 /* line 70, ../_sass/_layout.scss */
 nav ul li:last-of-type {
@@ -1197,7 +1197,7 @@ img.rogin-icon:hover {
   }
   /* line 22, ../_sass/_mobile.scss */
   nav ul li {
-    margin-right: 0.3em;
+    margin-right: 27px;
   }
 
   /* line 26, ../_sass/_mobile.scss */
