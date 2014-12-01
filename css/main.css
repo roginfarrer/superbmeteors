@@ -664,7 +664,7 @@ article {
 /* line 56, ../_sass/_layout.scss */
 nav {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 0.8em;
   float: right;
   margin: 0;
   line-height: 1.52632;
