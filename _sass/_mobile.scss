@@ -1,7 +1,38 @@
+@media screen and (max-width: 850px) {
+  blockquote {
+    margin-left: 0;
+    padding-left: 1em;
+  }
+	.alignleft, .alignright, .imgbleed {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .previous, .archives, .next, .column.real-third {
+		display: block;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.archives {
+		margin-top: $base-margin-bottom;
+	}
+	.next {
+		margin-left: 1em;
+	}
+  .alignleft, .alignright {
+    width: 100%;
+   }
+}
+
 @media screen and (max-width: 700px) {
 	body {
 		font-size: $fs_small; /* 18px */
 	}
+	img[class*="-follow"] {
+    width: 2em;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -37,4 +68,21 @@
 	.read-more {
 		float: none;
 	}
+}
+
+@media screen and (max-width: 320px) {
+	.article-category {
+    display: block;
+    float: none;
+    margin-bottom: $base-margin-bottom;
+    text-align: center;
+    width: 100%;
+  }
+  .share {
+    display: block;
+    float: none;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
