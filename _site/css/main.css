@@ -1219,6 +1219,7 @@ img.rogin-icon:hover {
 
   /* line 32, ../_sass/_mobile.scss */
   .loop-meta {
+    display: block;
     float: none;
     margin-bottom: 0.76316em;
     margin-left: auto;
@@ -1226,8 +1227,9 @@ img.rogin-icon:hover {
     text-align: center;
   }
 
-  /* line 39, ../_sass/_mobile.scss */
+  /* line 40, ../_sass/_mobile.scss */
   .read-more {
+    display: block;
     float: none;
     margin-left: auto;
     margin-right: auto;
