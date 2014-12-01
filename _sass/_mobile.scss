@@ -5,13 +5,9 @@
 }
 
 @media screen and (max-width: 500px) {
-	h1 {
-		float: none;
-		margin-bottom: $mb;
-	}
 	.home {
 		display: block;
-		margin: 0 auto;
+		margin: 0 auto $mb;
 		text-align: center;
 	}
 	nav {
@@ -20,7 +16,7 @@
 		margin: 0 auto;
 		text-align: center;
 		ul li {
-			margin: 0 0.2em;
+			margin: 0 0.4em;
 		}
 	}
 	body { 
