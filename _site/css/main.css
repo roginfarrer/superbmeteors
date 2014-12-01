@@ -1178,7 +1178,7 @@ img.rogin-icon:hover {
     /* 18px */
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   /* line 8, ../_sass/_mobile.scss */
   h1 {
     float: none;
@@ -1187,7 +1187,7 @@ img.rogin-icon:hover {
   /* line 11, ../_sass/_mobile.scss */
   .home {
     display: block;
-    margin: 0 auto 1.52632em;
+    margin: 0 auto 0.76316em;
     text-align: center;
   }
 
