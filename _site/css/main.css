@@ -83,8 +83,8 @@ a {
 /* 37.11 */
 /* 29.688 */
 /* 23.75 */
-/* 15.2 */
-/* 12.76 */
+/* 16 */
+/* 13 */
 /* read more */
 @-moz-keyframes bounceOut {
   0% {
@@ -424,7 +424,7 @@ h4 {
 /* line 85, ../_sass/_type.scss */
 h5 {
   color: #767676;
-  font-size: 0.8em;
+  font-size: 0.84em;
   line-height: 1.52632;
   margin: 1.52632 0 1.52632;
 }
@@ -450,7 +450,7 @@ h5.article-meta {
 
 /* line 108, ../_sass/_type.scss */
 h6 {
-  font-size: 0.65em;
+  font-size: 0.655em;
   line-height: 2.8698em;
 }
 
@@ -559,7 +559,7 @@ figure img {
 /* line 172, ../_sass/_type.scss */
 figcaption {
   color: #767676;
-  font-size: 0.8em;
+  font-size: 0.84em;
   margin-bottom: 3.05263em;
 }
 
@@ -664,7 +664,7 @@ article {
 /* line 56, ../_sass/_layout.scss */
 nav {
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: 0.84em;
   float: right;
   margin: 0;
   line-height: 1.52632;
@@ -818,7 +818,7 @@ nav a:hover {
 /* line 153, ../_sass/_layout.scss */
 .pagination-head {
   color: #353535;
-  font-size: 0.65em;
+  font-size: 0.655em;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -827,7 +827,7 @@ nav a:hover {
 /* line 161, ../_sass/_layout.scss */
 div[class*="navigation"] {
   color: #a53838;
-  font-size: 0.8em;
+  font-size: 0.84em;
   margin: 0 auto;
   overflow: hidden;
   padding: 0;
@@ -855,7 +855,7 @@ div[class*="navigation"] {
 /* line 185, ../_sass/_layout.scss */
 .article-category {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.84em;
   float: left;
 }
 /* line 189, ../_sass/_layout.scss */
@@ -888,7 +888,7 @@ div[class*="navigation"] {
 /* line 205, ../_sass/_layout.scss */
 .share p {
   color: #353535;
-  font-size: 0.8em;
+  font-size: 0.84em;
   font-weight: 700;
   margin-bottom: 0.76316em;
 }
@@ -1080,7 +1080,7 @@ footer h4 {
 /* line 13, ../_sass/_footer.scss */
 footer p {
   color: #969696;
-  font-size: 0.8em;
+  font-size: 0.84em;
   margin-bottom: 1.3em;
   margin-left: auto;
   margin-right: auto;
@@ -1205,7 +1205,7 @@ img.rogin-icon:hover {
   }
   /* line 24, ../_sass/_mobile.scss */
   nav ul li {
-    margin: 0 0.55em;
+    margin: 0 0.7em;
   }
 
   /* line 28, ../_sass/_mobile.scss */
