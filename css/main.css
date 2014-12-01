@@ -1222,15 +1222,11 @@ img.rogin-icon:hover {
     display: block;
     float: none;
     margin-bottom: 0.76316em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
   }
 
-  /* line 40, ../_sass/_mobile.scss */
+  /* line 37, ../_sass/_mobile.scss */
   .read-more {
     display: block;
     float: none;
-    text-align: center;
   }
 }
