@@ -1296,4 +1296,10 @@ img.rogin-icon:hover {
     text-align: center;
     width: 100%;
   }
+
+  /* line 92, ../_sass/_mobile.scss */
+  img[class*="-follow"] {
+    width: 1.6em;
+    padding: 0 1px;
+  }
 }
