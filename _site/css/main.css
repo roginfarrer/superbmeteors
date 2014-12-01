@@ -320,44 +320,45 @@ a {
 p {
   color: #353535;
   font-family: "ratio", "calluna-sans", helvetica, sans-serif;
+  font-size: 1.1875em;
   line-height: 1.52632;
   font-weight: 400;
   margin-bottom: 1.52632em;
 }
 
-/* line 10, ../_sass/_type.scss */
+/* line 11, ../_sass/_type.scss */
 article a, article a:visited, div[class*="navigation"] p a, div[class*="navigation"] p a:visited {
   color: #a53838;
   font-weight: 500;
   text-decoration: underline;
 }
-/* line 15, ../_sass/_type.scss */
+/* line 16, ../_sass/_type.scss */
 article a:hover, article a:visited:hover, div[class*="navigation"] p a:hover, div[class*="navigation"] p a:visited:hover {
   color: #632222;
   text-decoration: underline;
 }
 
-/* line 21, ../_sass/_type.scss */
+/* line 22, ../_sass/_type.scss */
 h1 {
   font-weight: 500;
   float: left;
   margin: 0;
 }
-/* line 25, ../_sass/_type.scss */
+/* line 26, ../_sass/_type.scss */
 h1 a {
   color: #333;
   text-decoration: none;
 }
-/* line 29, ../_sass/_type.scss */
+/* line 30, ../_sass/_type.scss */
 h1 a:visited {
   color: #333;
 }
-/* line 32, ../_sass/_type.scss */
+/* line 33, ../_sass/_type.scss */
 h1 a:hover {
   color: #a53838;
 }
 
-/* line 37, ../_sass/_type.scss */
+/* line 38, ../_sass/_type.scss */
 h1.article-title {
   float: none;
   font-size: 2.21053em;
@@ -367,12 +368,12 @@ h1.article-title {
   text-shadow: none;
 }
 
-/* line 46, ../_sass/_type.scss */
+/* line 47, ../_sass/_type.scss */
 h1.page-title {
   text-align: center;
 }
 
-/* line 50, ../_sass/_type.scss */
+/* line 51, ../_sass/_type.scss */
 h2 {
   color: #333;
   font-size: 1.68421em;
@@ -381,7 +382,7 @@ h2 {
   margin: 1.8125em 0 0.90625em;
 }
 
-/* line 58, ../_sass/_type.scss */
+/* line 59, ../_sass/_type.scss */
 h3 {
   color: #333;
   font-weight: bold;
@@ -390,12 +391,12 @@ h3 {
   margin: 1.16em 0 1.16em;
 }
 
-/* line 66, ../_sass/_type.scss */
+/* line 67, ../_sass/_type.scss */
 #home-titles {
   margin-top: .90625em;
   margin-bottom: 0;
 }
-/* line 69, ../_sass/_type.scss */
+/* line 70, ../_sass/_type.scss */
 #home-titles a {
   color: #333;
   text-decoration: none;
@@ -405,7 +406,7 @@ h3 {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
 }
-/* line 74, ../_sass/_type.scss */
+/* line 75, ../_sass/_type.scss */
 #home-titles a:hover {
   color: #a53838;
   -ms-transition: color 200ms ease;
@@ -415,81 +416,81 @@ h3 {
   transition: color 200ms ease;
 }
 
-/* line 80, ../_sass/_type.scss */
+/* line 81, ../_sass/_type.scss */
 h4 {
   font-size: 1em;
   margin: 1.52632em 0 1.52632em;
 }
 
-/* line 85, ../_sass/_type.scss */
+/* line 86, ../_sass/_type.scss */
 h5 {
   color: #767676;
   font-size: 0.84em;
   line-height: 1.52632;
   margin: 1.52632 0 1.52632;
 }
-/* line 90, ../_sass/_type.scss */
+/* line 91, ../_sass/_type.scss */
 h5 a {
   color: #767676;
   text-decoration: underline;
 }
 
-/* line 96, ../_sass/_type.scss */
+/* line 97, ../_sass/_type.scss */
 h5.article-meta {
   font-style: italic;
   margin-bottom: 2.7em;
   margin-top: 0;
 }
 
-/* line 102, ../_sass/_type.scss */
+/* line 103, ../_sass/_type.scss */
 .loop-meta {
   display: inline-block;
   float: left;
   margin-top: 0.8em;
 }
 
-/* line 108, ../_sass/_type.scss */
+/* line 109, ../_sass/_type.scss */
 h6 {
   font-size: 0.655em;
   line-height: 2.8698em;
 }
 
-/* line 113, ../_sass/_type.scss */
+/* line 114, ../_sass/_type.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 117, ../_sass/_type.scss */
+/* line 118, ../_sass/_type.scss */
 em {
   font-style: italic;
 }
 
-/* line 121, ../_sass/_type.scss */
+/* line 122, ../_sass/_type.scss */
 ul {
   color: #333;
   list-style-type: disc;
   margin-bottom: 1.52632em;
 }
-/* line 125, ../_sass/_type.scss */
+/* line 126, ../_sass/_type.scss */
 ul li {
   margin-bottom: 0.76316em;
 }
 
-/* line 130, ../_sass/_type.scss */
+/* line 131, ../_sass/_type.scss */
 ol {
   color: #333;
   list-style-type: decimal;
   margin-bottom: 1.52632em;
 }
 
-/* line 136, ../_sass/_type.scss */
+/* line 137, ../_sass/_type.scss */
 li {
   color: #353535;
   line-height: 1.52632;
   margin-left: 2.5em;
 }
 
-/* line 142, ../_sass/_type.scss */
+/* line 143, ../_sass/_type.scss */
 blockquote {
   border-left: 0.5em solid #a53838;
   font-size: 1.31579em;
@@ -497,14 +498,14 @@ blockquote {
   margin-left: -3.5em;
   margin-top: 1.52632em;
 }
-/* line 148, ../_sass/_type.scss */
+/* line 149, ../_sass/_type.scss */
 blockquote p {
   color: #767676;
   font-style: italic;
   margin-bottom: 1.3em;
 }
 
-/* line 155, ../_sass/_type.scss */
+/* line 156, ../_sass/_type.scss */
 img {
   height: auto;
   max-width: 100%;
@@ -513,13 +514,13 @@ img {
   padding: 0;
 }
 
-/* line 162, ../_sass/_type.scss */
+/* line 163, ../_sass/_type.scss */
 img a {
   border: none;
   text-decoration: none;
 }
 
-/* line 166, ../_sass/_type.scss */
+/* line 167, ../_sass/_type.scss */
 .alignright {
   float: right;
   margin-left: 1.52632em;
@@ -528,7 +529,7 @@ img a {
   width: 50%;
 }
 
-/* line 167, ../_sass/_type.scss */
+/* line 168, ../_sass/_type.scss */
 .alignleft {
   float: left;
   margin-left: -15%;
@@ -537,33 +538,33 @@ img a {
   width: 50%;
 }
 
-/* line 168, ../_sass/_type.scss */
+/* line 169, ../_sass/_type.scss */
 img.aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 169, ../_sass/_type.scss */
+/* line 170, ../_sass/_type.scss */
 .imgbleed {
   margin-left: -15%;
   width: 130%;
 }
 
-/* line 170, ../_sass/_type.scss */
+/* line 171, ../_sass/_type.scss */
 figure img {
   display: block;
   width: 100%;
 }
 
-/* line 172, ../_sass/_type.scss */
+/* line 173, ../_sass/_type.scss */
 figcaption {
   color: #767676;
   font-size: 0.84em;
   margin-bottom: 3.05263em;
 }
 
-/* line 178, ../_sass/_type.scss */
+/* line 179, ../_sass/_type.scss */
 hr {
   border-bottom-color: #D5D5D5;
   border-bottom-style: solid;
@@ -573,19 +574,19 @@ hr {
   width: 10rem;
 }
 
-/* line 187, ../_sass/_type.scss */
+/* line 188, ../_sass/_type.scss */
 sup, sub {
   vertical-align: baseline;
   position: relative;
   top: -0.4em;
 }
 
-/* line 192, ../_sass/_type.scss */
+/* line 193, ../_sass/_type.scss */
 sub {
   top: 0.4em;
 }
 
-/* line 197, ../_sass/_type.scss */
+/* line 198, ../_sass/_type.scss */
 ::selection {
   background: #a53838;
   color: #FDFDFD;
@@ -596,7 +597,7 @@ body {
   background-color: #FDFDFD;
   border-top: 6px solid #a53838;
   font-family: "ratio", "calluna-sans", helvetica, sans-serif;
-  font-size: 1.1875em;
+  font-size: 100%;
   height: 100%;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
