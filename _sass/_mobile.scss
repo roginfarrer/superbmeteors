@@ -68,6 +68,10 @@
 	.alignleft, .alignright {
     width: 100%;
    }
+  li {
+    padding-left: 0;
+    margin-left: 1.5em;
+  }
 }
 
 @media screen and (max-width: 320px) {

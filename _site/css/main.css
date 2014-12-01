@@ -1271,9 +1271,15 @@ img.rogin-icon:hover {
   .alignleft, .alignright {
     width: 100%;
   }
+
+  /* line 71, ../_sass/_mobile.scss */
+  li {
+    padding-left: 0;
+    margin-left: 1.5em;
+  }
 }
 @media screen and (max-width: 320px) {
-  /* line 74, ../_sass/_mobile.scss */
+  /* line 78, ../_sass/_mobile.scss */
   .article-category {
     display: block;
     float: none;
@@ -1282,7 +1288,7 @@ img.rogin-icon:hover {
     width: 100%;
   }
 
-  /* line 81, ../_sass/_mobile.scss */
+  /* line 85, ../_sass/_mobile.scss */
   .share {
     display: block;
     float: none;
