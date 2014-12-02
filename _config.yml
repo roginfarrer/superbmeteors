@@ -16,5 +16,6 @@ rdiscount:
   extensions: []
   
 exclude: ['Rakefile', 'README.markdown', 'config.rb']
+include: ['.htaccess']
 
 paginate: 5
