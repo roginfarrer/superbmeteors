@@ -6,7 +6,7 @@ permalink: /about/
 
 My name is [Rogin](http://twitter.com/RoginFarrer). I'm a senior drama major at Vassar College, where I do mostly design and technical theater. In my free time I like to write and design and build web sites.
 
-<figure class="alignleft"><img class="about-photo" src="https://s3.amazonaws.com/roginfarrer.com/rogin-avatar.jpg" alt="it's me!"  />
+<figure class="alignleft"><img class="about-photo" src="http://cdn.roginfarrer.com/rogin-avatar.jpg" alt="it's me!"  />
 <figcaption>My lovely mug.</figcaption>
 </figure>
 
