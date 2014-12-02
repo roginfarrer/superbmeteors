@@ -18,7 +18,7 @@ Whether I'm creating for the page or the stage, I'm passionate about **expressio
 
 To be honest, I'm not sure yet. I like reading about and talking about tech, Apple, and design, so I'm sure you'll see a lot of that here. I can bet that a few of my other interests will slip in here, be it theater, productivity hacks, eating paleo, strength training, and well-being.
 
-If you’d like to get updates from me, [sign up for blog posts via email]() (I promise, no spam!), or [follow me on Twitter](http://twitter.com/RoginFarrer), or [grab my RSS feed](/feed.xml/) if that’s your thing.
+If you’d like to get updates from me, [sign up for blog posts via email]() (I promise, no spam!), or [follow me on Twitter](http://twitter.com/RoginFarrer), or [grab my RSS feed](/feed.xml) if that’s your thing.
 
 ### Colophon
 
