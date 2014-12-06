@@ -2,9 +2,10 @@ source:      .
 destination: ./_site
 includes:    ./_includes
 
-pygments:    true
-markdown:    rdiscount
-permalink:   /:title.html
+pygments:      true
+highlighter:   rouge
+markdown:      rdiscount
+permalink:     /:title.html
 
 name: RoginFarrer.com
 base_url: ""

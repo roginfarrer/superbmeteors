@@ -41,4 +41,16 @@ Like line breaks, I don't use images often, but I want them to pack a punch when
 <figure class="imgbleed"><img src="http://cdn.roginfarrer.com/aboutrogin.jpeg" />
 <figcaption>At Vassar, it's a tradition for rising seniors to ring the bell atop Main building, which oversees the campus.</figure>
 
+I've been more into code than I have ever before, which has prompted me to use code blocks for the first time. Here's a sample:
+
+{% highlight CSS %}
+	.fadeIn1 {
+	-ms-animation: fade-in 1.2s;
+	-moz-animation: fade-in 1.2s;
+	-o-animation: fade-in 1.2s;
+	-webkit-animation: fade-in 1.2s;
+	animation: fade-in 1.2s;
+}
+{% endhighlight %}
+
 So this was my style guide. Hope you get a kick out of it.

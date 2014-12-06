@@ -194,6 +194,18 @@ sub {
   top: 0.4em;
 }
 
+.highlight {
+	margin-bottom: $mb;
+	pre {
+		padding: 1em;
+	}
+}
+
+code {
+	font-family: $code;
+	font-size: $fs5;
+	margin-bottom: $mb;
+}
 
 ::selection {
   background: $red;

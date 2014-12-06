@@ -586,7 +586,23 @@ sub {
   top: 0.4em;
 }
 
-/* line 198, ../_sass/_type.scss */
+/* line 197, ../_sass/_type.scss */
+.highlight {
+  margin-bottom: 1.52632em;
+}
+/* line 199, ../_sass/_type.scss */
+.highlight pre {
+  padding: 1em;
+}
+
+/* line 204, ../_sass/_type.scss */
+code {
+  font-family: "source-code-pro", menlo, courier, monospace;
+  font-size: 0.84em;
+  margin-bottom: 1.52632em;
+}
+
+/* line 210, ../_sass/_type.scss */
 ::selection {
   background: #a53838;
   color: #FDFDFD;
