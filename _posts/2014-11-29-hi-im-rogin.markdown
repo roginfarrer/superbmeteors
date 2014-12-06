@@ -3,6 +3,7 @@ layout: post
 title:  "Hi, I'm Rogin"
 category: Updates
 category_slug: updates
+permalink: hi-im-rogin
 description: For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less... But with a revamped roginfarrer.com, I’m making a comeback. This is hopefully the first post of what will be a regular chain of posts for a good while.
 ---
 For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less. 

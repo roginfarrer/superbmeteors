@@ -4,7 +4,7 @@
     <title type="text" xml:lang="en">RoginFarrer.com — Tech, Design, and Theater</title>
     <link type="application/atom+xml" href="http://roginfarrer.com/feed" rel="self"/>
     <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2014-12-05T23:17:18-05:00</updated>
+    <updated>2014-12-05T23:30:06-05:00</updated>
     <id>http://roginfarrer.com</id>
     <author>
         <name>Rogin Farrer</name>
@@ -14,7 +14,7 @@
     
     <entry>
         <title>Hi, I'm Rogin</title>
-        <link href="http://roginfarrer.com/hi-im-rogin.html"/>
+        <link href="http://roginfarrer.com/hi-im-rogin"/>
         <updated>2014-11-29T00:00:00-05:00</updated>
         <id>http://roginfarrer.com/hi-im-rogin</id>
         <content type="html">&lt;p&gt;For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less.&lt;/p&gt;
