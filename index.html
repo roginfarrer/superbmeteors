@@ -9,7 +9,7 @@ layout: default
             <a href="{{ site.base_url }}{{ post.permalink }}" title="{{ post.title }}">{{ post.title }}</a>
           </h2>
           <p>{{ post.description }}</p>
-          <h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/categories/{{ post.category_slug }}/">{{ post.category }}</a></h5>
+          <h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/categories/{{ post.category_slug }}">{{ post.category }}</a></h5>
           <p>
             <a class="read-more" href="{{ post.url }}" title="{{ post.title }}">Read more &#8594;</a>
           </p>
