@@ -114,10 +114,10 @@ url: http://roginfarrer.com
 description: "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
 root_desc: "RoginFarrer.com — Tech, Design, and Theater"
 
-exclude: ['Rakefile', 'README.markdown', 'config.rb']
+exclude: ['README.markdown', 'config.rb']
 include: ['.htaccess']
 
-paginate: 5
+paginate: 10
 {% endhighlight %}
 
 Be sure to change the variables like `name` to your own!
@@ -132,3 +132,25 @@ jekyll serve -w
 {% endhighlight %}
 
 Terminal will start running Jekyll! It will also spit out a local web address like `http://127.0.0.1:4000/` which you can enter to your browser. BAM! There’s your site!
+
+Then to get compass running, type in the usual command:
+
+{% highlight bash %}
+compass watch
+{% endhighlight %}
+
+That’s it! You’re good to go with your local repository.
+
+## Setting up GitHub Pages
+
+Conveniently, GitHub offers users one free website that lives at `http://yourusername.github.io. We’re going to set up our new Jekyll repository there.
+
+We’re also going to need GitHub for Mac. If you’re like me, you are probably pretty confused by the interface. No worries! We’ll get through it.
+
+In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’ Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Publish’ in the upper right.
+
+Another dialogue box comes up, and now we’ll have to name the repository. Enter `yourusername.github.io`. Then hit ‘Push Repository.’
+
+## Success!
+
+And there you are! You’ve got a new Jekyll site published on the web. For more on how to publish posts and pages, I highly recommend you check out [Jekyll’s own documentation](http://jekyllrb.com/docs/). They’re thorough and pretty helpful.
