@@ -4,6 +4,15 @@ p {
   line-height: $lh;
   font-weight: 400;
   margin-bottom: $mb;
+	code {
+		background: #f5f5f5;
+		border: 1px solid #ccc; 
+		@include border-radius(3px);
+		font-family: $code;
+		font-size: $fs5;
+		margin-bottom: $mb;
+		padding: 0 0.2em;
+	}
 }
 
 article, div[class*="navigation"] p {
@@ -196,8 +205,9 @@ sub {
 
 .highlight {
 	margin-bottom: $mb;
+	overflow: auto;
 	pre {
-		padding: 1em;
+		padding: 0.5em 1em;
 	}
 }
 
@@ -208,6 +218,6 @@ code {
 }
 
 ::selection {
-  background: $red;
+  background: $lightred;
   color: $bg;
 }
