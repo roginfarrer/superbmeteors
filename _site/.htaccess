@@ -2,5 +2,11 @@
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
 RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
-RewriteRule ^feed/?$ http://roginfarrer.com/feed [R=302,NC,L]
+RewriteRule ^feed/?$ http://feedpress.me/roginfarrer [R=302,NC,L]
 # END FEEDPRESS
+
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)\.(\d+)\.(js|css|png|jpg|gif)$ $1.$3 [L]
+</IfModule>

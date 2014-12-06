@@ -6,10 +6,10 @@
   <title>{% if page.title %}{{ page.title }} — {{ site.name }}{% else %}Tech, Design, and Theater — {{ site.name }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-	<link rel="stylesheet" href="/main.{{ site.version }}.css">
-	<link rel="stylesheet" href="/syntax.{{ site.version }}.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="/animate.min.{{ site.version }}.css">
+	<link rel="stylesheet" href="/css/main.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" />
+	<link rel="stylesheet" href="/css/syntax.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/css/animate.min.css?{{ site.time | date:'%Y%m%d%U%H%N%S' }}" />
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed/" | prepend: site.baseurl | prepend: site.url }}" />
 
   <!-- Typekit -->
