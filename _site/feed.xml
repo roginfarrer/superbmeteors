@@ -4,7 +4,7 @@
     <title type="text" xml:lang="en">RoginFarrer.com — Tech, Design, and Theater</title>
     <link type="application/atom+xml" href="http://roginfarrer.com/feed" rel="self"/>
     <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2014-12-06T12:31:05-05:00</updated>
+    <updated>2014-12-08T10:51:20-05:00</updated>
     <id>http://roginfarrer.com</id>
     <author>
         <name>Rogin Farrer</name>
@@ -15,7 +15,7 @@
     <entry>
         <title>2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing</title>
         <link href="http://roginfarrer.com/getting-started-with-jekyll"/>
-        <updated>2014-12-06T12:31:04-05:00</updated>
+        <updated>2014-12-07T19:12:48-05:00</updated>
         <id>http://roginfarrer.com/2014-12-6-starting-a-blog-with-jekyll-when-you-have-no-idea-what-you're-doing</id>
         <content type="html">&lt;p&gt;Last week I rebuilt this site on &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, and it’s freaking awesome.&lt;/p&gt;
 
@@ -122,10 +122,10 @@ compass create&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;span class=&quot;ss&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer.&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;root_desc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;RoginFarrer.com — Tech, Design, and Theater&amp;quot;&lt;/span&gt;
 
-&lt;span class=&quot;ss&quot;&gt;exclude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Rakefile&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;README.markdown&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;config.rb&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;exclude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;README.markdown&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;config.rb&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;.htaccess&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 
-&lt;span class=&quot;ss&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;ss&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Be sure to change the variables like &lt;code&gt;name&lt;/code&gt; to your own!&lt;/p&gt;
@@ -139,6 +139,45 @@ jekyll serve -w&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Terminal will start running Jekyll! It will also spit out a local web address like &lt;code&gt;http://127.0.0.1:4000/&lt;/code&gt; which you can enter to your browser. BAM! There’s your site!&lt;/p&gt;
+
+&lt;p&gt;Then to get compass running, type in the usual command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;compass watch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;That’s it! You’re good to go with your local repository.&lt;/p&gt;
+
+&lt;h2&gt;Setting up GitHub Pages&lt;/h2&gt;
+
+&lt;p&gt;Conveniently, GitHub offers users one free website that lives at `http://yourusername.github.io. We’re going to set up our new Jekyll repository there.&lt;/p&gt;
+
+&lt;p&gt;We’re also going to need GitHub for Mac. If you’re like me, you are probably pretty confused by the interface. No worries! We’ll get through it.&lt;/p&gt;
+
+&lt;p&gt;In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’ Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Publish’ in the upper right.&lt;/p&gt;
+
+&lt;p&gt;Another dialogue box comes up, and now we’ll have to name the repository. Enter &lt;code&gt;yourusername.github.io&lt;/code&gt;. Then hit ‘Push Repository.’&lt;/p&gt;
+
+&lt;h2&gt;Success!&lt;/h2&gt;
+
+&lt;p&gt;And there you are! You’ve got a new Jekyll site published on the web. For more on how to publish posts and pages, I highly recommend you check out &lt;a href=&quot;http://jekyllrb.com/docs/&quot;&gt;Jekyll’s own documentation&lt;/a&gt;. They’re thorough and pretty helpful.&lt;/p&gt;
+
+&lt;h2&gt;Why Jekyll?&lt;/h2&gt;
+
+&lt;p&gt;Now that we’ve got our Jekyll site up and running, let’s talk about the advantages of Jekyll over conventional blogging platforms. While a flat-file structure lacks any kind of user interface or WYSIWYG editor, in return we benefit from the flexibility and ease of development.&lt;/p&gt;
+
+&lt;h3&gt;Easy deployment&lt;/h3&gt;
+
+&lt;p&gt;While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client.&lt;/p&gt;
+
+&lt;p&gt;In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which.&lt;/p&gt;
+
+&lt;p&gt;Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy.&lt;/p&gt;
+
+&lt;h3&gt;Flexibility&lt;/h3&gt;
+
+&lt;p&gt;I can’t tell you how many house I have spent putting together custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to &lt;code&gt;functions.php&lt;/code&gt;. Not being a programmer, it was incredibly frustrating.&lt;/p&gt;
+
+&lt;p&gt;With Jekyll, custom post types are a breeze. They only require a new template in the &lt;code&gt;_layouts&lt;/code&gt; folder. The ability to create your own liquid tags in a posts Front Matter make link posts really easy.&lt;/p&gt;
 </content>
     </entry>
     

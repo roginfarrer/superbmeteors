@@ -154,3 +154,21 @@ Another dialogue box comes up, and now we’ll have to name the repository. Ente
 ## Success!
 
 And there you are! You’ve got a new Jekyll site published on the web. For more on how to publish posts and pages, I highly recommend you check out [Jekyll’s own documentation](http://jekyllrb.com/docs/). They’re thorough and pretty helpful.
+
+## Why Jekyll?
+
+Now that we’ve got our Jekyll site up and running, let’s talk about the advantages of Jekyll over conventional blogging platforms. While a flat-file structure lacks any kind of user interface or WYSIWYG editor, in return we benefit from the flexibility and ease of development.
+
+### Easy deployment
+
+While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client. 
+
+In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which. 
+
+Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy. 
+
+### Flexibility
+
+I can’t tell you how many house I have spent putting together custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to `functions.php`. Not being a programmer, it was incredibly frustrating.
+
+With Jekyll, custom post types are a breeze. They only require a new template in the `_layouts` folder. The ability to create your own liquid tags in a posts Front Matter make link posts really easy.

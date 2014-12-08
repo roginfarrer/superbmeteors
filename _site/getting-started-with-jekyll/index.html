@@ -37,7 +37,7 @@
         <section class="content fadeIn2">
 	<article>
     	<h1 class="article-title">2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing</h1>
-        <h5 class="article-meta">Dec 6, 2014 &#149; <span class="read-time"></span> read</h5>
+        <h5 class="article-meta">Dec 7, 2014 &#149; <span class="read-time"></span> read</h5>
 	    <p>Last week I rebuilt this site on <a href="http://jekyllrb.com">Jekyll</a>, and it’s freaking awesome.</p>
 
 <p>I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood what it did. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.</p>
@@ -143,10 +143,10 @@ compass create</code></pre></div>
 <span class="ss">description</span><span class="p">:</span> <span class="s2">&quot;A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer.&quot;</span>
 <span class="ss">root_desc</span><span class="p">:</span> <span class="s2">&quot;RoginFarrer.com — Tech, Design, and Theater&quot;</span>
 
-<span class="ss">exclude</span><span class="p">:</span> <span class="o">[</span><span class="s1">&#39;Rakefile&#39;</span><span class="p">,</span> <span class="s1">&#39;README.markdown&#39;</span><span class="p">,</span> <span class="s1">&#39;config.rb&#39;</span><span class="o">]</span>
+<span class="ss">exclude</span><span class="p">:</span> <span class="o">[</span><span class="s1">&#39;README.markdown&#39;</span><span class="p">,</span> <span class="s1">&#39;config.rb&#39;</span><span class="o">]</span>
 <span class="kp">include</span><span class="p">:</span> <span class="o">[</span><span class="s1">&#39;.htaccess&#39;</span><span class="o">]</span>
 
-<span class="ss">paginate</span><span class="p">:</span> <span class="mi">5</span></code></pre></div>
+<span class="ss">paginate</span><span class="p">:</span> <span class="mi">10</span></code></pre></div>
 
 
 <p>Be sure to change the variables like <code>name</code> to your own!</p>
@@ -160,6 +160,45 @@ jekyll serve -w</code></pre></div>
 
 
 <p>Terminal will start running Jekyll! It will also spit out a local web address like <code>http://127.0.0.1:4000/</code> which you can enter to your browser. BAM! There’s your site!</p>
+
+<p>Then to get compass running, type in the usual command:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">compass watch</code></pre></div>
+
+
+<p>That’s it! You’re good to go with your local repository.</p>
+
+<h2>Setting up GitHub Pages</h2>
+
+<p>Conveniently, GitHub offers users one free website that lives at `http://yourusername.github.io. We’re going to set up our new Jekyll repository there.</p>
+
+<p>We’re also going to need GitHub for Mac. If you’re like me, you are probably pretty confused by the interface. No worries! We’ll get through it.</p>
+
+<p>In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’ Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Publish’ in the upper right.</p>
+
+<p>Another dialogue box comes up, and now we’ll have to name the repository. Enter <code>yourusername.github.io</code>. Then hit ‘Push Repository.’</p>
+
+<h2>Success!</h2>
+
+<p>And there you are! You’ve got a new Jekyll site published on the web. For more on how to publish posts and pages, I highly recommend you check out <a href="http://jekyllrb.com/docs/">Jekyll’s own documentation</a>. They’re thorough and pretty helpful.</p>
+
+<h2>Why Jekyll?</h2>
+
+<p>Now that we’ve got our Jekyll site up and running, let’s talk about the advantages of Jekyll over conventional blogging platforms. While a flat-file structure lacks any kind of user interface or WYSIWYG editor, in return we benefit from the flexibility and ease of development.</p>
+
+<h3>Easy deployment</h3>
+
+<p>While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client.</p>
+
+<p>In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which.</p>
+
+<p>Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy.</p>
+
+<h3>Flexibility</h3>
+
+<p>I can’t tell you how many house I have spent putting together custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to <code>functions.php</code>. Not being a programmer, it was incredibly frustrating.</p>
+
+<p>With Jekyll, custom post types are a breeze. They only require a new template in the <code>_layouts</code> folder. The ability to create your own liquid tags in a posts Front Matter make link posts really easy.</p>
 
 	</article>
 </section>
