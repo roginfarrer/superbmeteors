@@ -3,8 +3,7 @@ destination: ./_site
 includes:    ./_includes
 plugins:		 ./_plugins
 
-pygments:      true
-markdown:      rdiscount
+highlighter:   pygments
 permalink:     /:title.html
 
 name: RoginFarrer.com
@@ -13,9 +12,8 @@ url: http://roginfarrer.com
 description: "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
 root_desc: "RoginFarrer.com — Tech, Design, and Theater"
 
-rdiscount:
-  extensions: []
-  
+markdown: kramdown
+
 exclude: ['Rakefile', 'README.markdown', 'config.rb']
 include: ['.htaccess']
 
