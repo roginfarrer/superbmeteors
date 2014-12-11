@@ -13,6 +13,8 @@ description: "A blog covering Tech news, design, productivity, health, and the a
 root_desc: "RoginFarrer.com — Tech, Design, and Theater"
 
 markdown: kramdown
+kramdown:
+	smart_quotes:  lsquo,rsquo,ldquo,rdquo
 
 exclude: ['Rakefile', 'README.markdown', 'config.rb']
 include: ['.htaccess']
