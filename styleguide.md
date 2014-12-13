@@ -44,12 +44,12 @@ Like line breaks, I don't use images often, but I want them to pack a punch when
 I've been more into code than I have ever before, which has prompted me to use code blocks for the first time. Here's a sample:
 
 {% highlight CSS %}
-	.fadeIn1 {
-	-ms-animation: fade-in 1.2s;
-	-moz-animation: fade-in 1.2s;
-	-o-animation: fade-in 1.2s;
+.fadeIn1 {
 	-webkit-animation: fade-in 1.2s;
-	animation: fade-in 1.2s;
+	   -moz-animation: fade-in 1.2s;
+		  -ms-animation: fade-in 1.2s;
+			 -o-animation: fade-in 1.2s;
+	 				animation: fade-in 1.2s;
 }
 {% endhighlight %}
 
