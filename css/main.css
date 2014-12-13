@@ -78,7 +78,7 @@ a {
 
 /* Background-Color */
 /* line-height = 29px */
-/* 19px */
+/* 18px */
 /* 46.388 */
 /* 37.11 */
 /* 29.688 */
@@ -632,7 +632,7 @@ body {
   background-color: #fff;
   border-top: 6px solid #a53838;
   font-family: "ratio", helvetica, sans-serif;
-  font-size: 19px;
+  font-size: 1.125em;
   height: 100%;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
