@@ -87,7 +87,7 @@ compass create
 
 Okay, so at this point Compass has added three folders: `config.rb`, `sass` (as distinct from `_sass`), and `stylesheets`. It’s now time to decide how you want to organize your assets. I decided to keep the structure from the Jekyll installation, so I deleted `sass` and `stylesheets`. Then open `config.rb` in a text editor.
 
-{% highlight ruby %}
+{% highlight coffee %}
 # Change line 6 to:
 css_dir = "css"
 # Change line 7 to:
@@ -100,19 +100,19 @@ Compass should now do its job correctly.
 
 In this file, you configure a lot of the major variables for your site, like its URL path, name, description, directory, etc. There’s a bunch of things you can do here, but to get you started, here’s what I use:
 
-{% highlight ruby %}
-source:      .
-destination: ./_site
-includes:    ./_includes
+{% highlight coffee %}
+source:        .
+destination:   ./_site
+includes:      ./_includes
 
 markdown:      rdiscount
 permalink:     /:title.html
 
-name: RoginFarrer.com
-base_url: ""
-url: http://roginfarrer.com
-description: "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
-root_desc: "RoginFarrer.com — Tech, Design, and Theater"
+name:          RoginFarrer.com
+base_url:      ""
+url:           http://roginfarrer.com
+description:   "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
+root_desc:     "RoginFarrer.com — Tech, Design, and Theater"
 
 exclude: ['README.markdown', 'config.rb']
 include: ['.htaccess']
@@ -126,7 +126,7 @@ Be sure to change the variables like `name` to your own!
 
 We’ve now got our local directory up and running! When you’re ready to open your site locally, open your terminal to a new window.
 
-{% highlight bash %}
+{% highlight coffee %}
 cd /your/folder/location/jekyll
 jekyll serve -w
 {% endhighlight %}

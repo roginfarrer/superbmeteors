@@ -4,13 +4,174 @@
     <title type="text" xml:lang="en">RoginFarrer.com — Tech, Design, and Theater</title>
     <link type="application/atom+xml" href="http://roginfarrer.com/feed" rel="self"/>
     <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2014-12-11T13:23:41-05:00</updated>
+    <updated>2014-12-12T23:15:40-05:00</updated>
     <id>http://roginfarrer.com</id>
     <author>
         <name>Rogin Farrer</name>
     </author>
     <rights>Copyright (c) 2014, Rogin Farrer; all rights reserved.</rights>
     
+    
+    <entry>
+        <title>2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing</title>
+        <link href="http://roginfarrer.com/getting-started-with-jekyll"/>
+        <updated>2014-12-12T23:11:16-05:00</updated>
+        <id>http://roginfarrer.com/2014-12-6-starting-a-blog-with-jekyll-when-you-have-no-idea-what-you're-doing</id>
+        <content type="html">&lt;p&gt;Last week I rebuilt this site on &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, and it’s freaking awesome.&lt;/p&gt;
+
+&lt;p&gt;I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood what it did. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.&lt;/p&gt;
+
+&lt;p&gt;But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open on trying to figure out what to do. &lt;/p&gt;
+
+&lt;p&gt;So for all you non-programmers interested in Jekyll, this is for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HOLD!&lt;/strong&gt; I want to reiterate that &lt;em&gt;I’m&lt;/em&gt; no programmer. I’m only somewhat familiar with Javascript and PHP. I can’t tell you how the engine behind Jekyll works. &lt;strong&gt;&lt;em&gt;But,&lt;/em&gt;&lt;/strong&gt; I can get you up in running in laymen’s terms.&lt;/p&gt;
+
+&lt;h4 id=&quot;here-we-gohttpyoutubek900hqbnc14&quot;&gt;&lt;a href=&quot;http://youtu.be/k900hqBNc14&quot;&gt;Here we go!&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;what-were-doing&quot;&gt;What we’re doing&lt;/h2&gt;
+
+&lt;p&gt;Okay, so there’s many ways to build a Jekyll website. This process will all depend on where you want to host your site and how you like to work with your stylesheets. So to clarify, here’s what I’m going to explain:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How to install Jekyll to a local directory&lt;/li&gt;
+  &lt;li&gt;How to incorporate &lt;a href=&quot;http://compass-style.org&quot;&gt;Compass&lt;/a&gt; and &lt;a href=&quot;http://sass-lang.com&quot;&gt;SASS&lt;/a&gt; into the workflow&lt;/li&gt;
+  &lt;li&gt;Setting up Github Pages hosting&lt;/li&gt;
+  &lt;li&gt;Configuring Github for Mac to easily deploy your local repository.&lt;/li&gt;
+  &lt;li&gt;Setting up Amazon S3 and Cloudfront for a quick and dirty CDN.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Whew! Okay, now we can start.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-you-need-to-know-first&quot;&gt;What you need to know first&lt;/h2&gt;
+
+&lt;p&gt;Let’s first define Jekyll in it’s simplest terms: &lt;strong&gt;Jekyll is “a simple, blog aware, static site generator.”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re a casual designer/web coder like me, you’re somewhat familiar with this generation concept. In Wordpress, for example, themes include a &lt;code&gt;header.php&lt;/code&gt;, &lt;code&gt;index.php&lt;/code&gt;, and a &lt;code&gt;footer.php&lt;/code&gt;. When you visit your webpage, Wordpress then merges all these files together, the PHP generating HTML that is spit out to your browser.&lt;/p&gt;
+
+&lt;p&gt;Jekyll works in a similar way. &lt;em&gt;Except there’s no PHP.&lt;/em&gt; Instead of calling the header with something like &lt;code&gt;&amp;lt;?php get_header(); ?&amp;gt;&lt;/code&gt;, we will use Liquid tags, which look like this: &lt;code&gt;{ % include header.html % }&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;So now we understand two portions of the Jekyll directory. We have a &lt;code&gt;_layouts&lt;/code&gt; folder that holds are page templates (i.e., posts, pages, homepage, and more). We also have an &lt;code&gt;_includes&lt;/code&gt; folder for modules we use across every page, like the HTML head, header, and footer. &lt;/p&gt;
+
+&lt;p&gt;We also have a &lt;code&gt;_posts&lt;/code&gt; folder for our blog posts, a &lt;code&gt;_sass&lt;/code&gt; folder for our not-yet-synthesized SCSS files, and a &lt;code&gt;css&lt;/code&gt; folder for our synthesized CSS files.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HOLD!&lt;/strong&gt; If you’re not already familiar with the SASS language, I highly suggest you read through their website. It’s pretty easy to pickup, and it makes organizing your styles &lt;em&gt;way easier&lt;/em&gt; than with plain CSS.&lt;/p&gt;
+
+&lt;p&gt;We also have a &lt;code&gt;_config.yml&lt;/code&gt; file which we’ll use later to configure our site’s “settings.” (I use quotations because that’s not &lt;em&gt;really&lt;/em&gt; what it’s called, but it’s easier to understand that way.)&lt;/p&gt;
+
+&lt;p&gt;And finally, there’s a &lt;code&gt;_site&lt;/code&gt; folder that functions similarly to a &lt;code&gt;public_html&lt;/code&gt; folder. It’s where Jekyll synthesizes our static site. We’ll leave this folder alone so Jekyll can do it’s thing without us getting in the way.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-the-local-directory&quot;&gt;Setting up the local directory&lt;/h2&gt;
+
+&lt;p&gt;Navigate to where you want your Jekyll installation to live, and create a folder for the project. I’ll call it &lt;code&gt;jekyll&lt;/code&gt; for simplicity’s sake.&lt;/p&gt;
+
+&lt;p&gt;Now open up Terminal. It’s time to install Jekyll and some of the tools we need. &lt;/p&gt;
+
+&lt;h3 id=&quot;install-jekyll&quot;&gt;Install Jekyll&lt;/h3&gt;
+
+&lt;p&gt;In Terminal, enter these lines to create a Jekyll installation:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /your/folder/location/jekyll
+sudo gem install jekyll
+jekyll new .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;With this we navigated to the folder that we want to install jekyll into, we installed Jekyll (&lt;code&gt;sudo&lt;/code&gt; to bypass permission errors), and created a new Jekyll repository in our folder. At this point, Jekyll has built a skeleton directory in the folder. I encourage you to stop at this point and poke around and get familiar with the file structure.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-rdiscount&quot;&gt;Install RDiscount&lt;/h3&gt;
+
+&lt;p&gt;If you want to write in Markdown, we need to install RDiscount. This gem processes Markdown and converts it to HTML. So in the same Terminal window:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo gem install rdiscount&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;installing-compass-and-sass&quot;&gt;Installing Compass and Sass&lt;/h3&gt;
+
+&lt;p&gt;This one took me a while to figure out, because when you install Compass and create a build, it adds its own SASS and stylesheet folders. It took me a little while to figure out how to configure Compass to find my Sass files and then synthesize them into the right folder. So I’ll break it down.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo gem install sass
+sudo gem install compass
+compass create&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Okay, so at this point Compass has added three folders: &lt;code&gt;config.rb&lt;/code&gt;, &lt;code&gt;sass&lt;/code&gt; (as distinct from &lt;code&gt;_sass&lt;/code&gt;), and &lt;code&gt;stylesheets&lt;/code&gt;. It’s now time to decide how you want to organize your assets. I decided to keep the structure from the Jekyll installation, so I deleted &lt;code&gt;sass&lt;/code&gt; and &lt;code&gt;stylesheets&lt;/code&gt;. Then open &lt;code&gt;config.rb&lt;/code&gt; in a text editor.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffee&quot; data-lang=&quot;coffee&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Change line 6 to:&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;css_dir = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;css&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Change line 7 to:&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;sass_dir = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;_sass&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Compass should now do its job correctly.&lt;/p&gt;
+
+&lt;h3 id=&quot;now-for-configyml&quot;&gt;Now for _config.yml&lt;/h3&gt;
+
+&lt;p&gt;In this file, you configure a lot of the major variables for your site, like its URL path, name, description, directory, etc. There’s a bunch of things you can do here, but to get you started, here’s what I use:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffee&quot; data-lang=&quot;coffee&quot;&gt;&lt;span class=&quot;nv&quot;&gt;source: &lt;/span&gt;       &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;destination: &lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_site&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;includes: &lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_includes&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;markdown: &lt;/span&gt;     &lt;span class=&quot;nx&quot;&gt;rdiscount&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;permalink: &lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;/:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;html&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;name: &lt;/span&gt;         &lt;span class=&quot;nx&quot;&gt;RoginFarrer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;com&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;base_url: &lt;/span&gt;     &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;url: &lt;/span&gt;          &lt;span class=&quot;nx&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;roginfarrer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;com&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;description: &lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;&amp;quot;A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;root_desc: &lt;/span&gt;    &lt;span class=&quot;s&quot;&gt;&amp;quot;RoginFarrer.com — Tech, Design, and Theater&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;exclude: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;README.markdown&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;config.rb&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;include: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;.htaccess&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;paginate: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Be sure to change the variables like &lt;code&gt;name&lt;/code&gt; to your own!&lt;/p&gt;
+
+&lt;h3 id=&quot;local-repository-complete&quot;&gt;Local repository complete!&lt;/h3&gt;
+
+&lt;p&gt;We’ve now got our local directory up and running! When you’re ready to open your site locally, open your terminal to a new window.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffee&quot; data-lang=&quot;coffee&quot;&gt;&lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;folder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;serve&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Terminal will start running Jekyll! It will also spit out a local web address like &lt;code&gt;http://127.0.0.1:4000/&lt;/code&gt; which you can enter to your browser. BAM! There’s your site!&lt;/p&gt;
+
+&lt;p&gt;Then to get compass running, type in the usual command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;compass watch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That’s it! You’re good to go with your local repository.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-github-pages&quot;&gt;Setting up GitHub Pages&lt;/h2&gt;
+
+&lt;p&gt;Conveniently, GitHub offers users one free website that lives at `http://yourusername.github.io. We’re going to set up our new Jekyll repository there.&lt;/p&gt;
+
+&lt;p&gt;We’re also going to need GitHub for Mac. If you’re like me, you are probably pretty confused by the interface. No worries! We’ll get through it.&lt;/p&gt;
+
+&lt;p&gt;In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’ Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Publish’ in the upper right.&lt;/p&gt;
+
+&lt;p&gt;Another dialogue box comes up, and now we’ll have to name the repository. Enter &lt;code&gt;yourusername.github.io&lt;/code&gt;. Then hit ‘Push Repository.’&lt;/p&gt;
+
+&lt;h2 id=&quot;success&quot;&gt;Success!&lt;/h2&gt;
+
+&lt;p&gt;And there you are! You’ve got a new Jekyll site published on the web. For more on how to publish posts and pages, I highly recommend you check out &lt;a href=&quot;http://jekyllrb.com/docs/&quot;&gt;Jekyll’s own documentation&lt;/a&gt;. They’re thorough and pretty helpful.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-jekyll&quot;&gt;Why Jekyll?&lt;/h2&gt;
+
+&lt;p&gt;Now that we’ve got our Jekyll site up and running, let’s talk about the advantages of Jekyll over conventional blogging platforms. While a flat-file structure lacks any kind of user interface or WYSIWYG editor, in return we benefit from the flexibility and ease of development.&lt;/p&gt;
+
+&lt;h3 id=&quot;easy-deployment&quot;&gt;Easy deployment&lt;/h3&gt;
+
+&lt;p&gt;While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client. &lt;/p&gt;
+
+&lt;p&gt;In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which. &lt;/p&gt;
+
+&lt;p&gt;Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy. &lt;/p&gt;
+
+&lt;h3 id=&quot;flexibility&quot;&gt;Flexibility&lt;/h3&gt;
+
+&lt;p&gt;I can’t tell you how many house I have spent putting together custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to &lt;code&gt;functions.php&lt;/code&gt;. Not being a programmer, it was incredibly frustrating.&lt;/p&gt;
+
+&lt;p&gt;With Jekyll, custom post types are a breeze. They only require a new template in the &lt;code&gt;_layouts&lt;/code&gt; folder. The ability to create your own liquid tags in a posts Front Matter make link posts really easy.&lt;/p&gt;
+</content>
+    </entry>
     
     <entry>
         <title>Hi, I'm Rogin</title>
