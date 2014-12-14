@@ -16,6 +16,8 @@ At the time of writing (November 26, 2014), body copy is set in Ratio. Headlines
 
 Second level headings are used to split text into sections. First level headings are only used once per page, in the page or post title. Hyperlinks are [underlined](/) and darkened when hovered.
 
+For emphasis, **bold text** is very useful to make words pop. For important, but less urgent points, *italicized text* becomes handy.
+
 - Bulleted lists look like this.
 - Sometimes my lists are long.
 - This is not one of those lists.
@@ -47,9 +49,9 @@ I've been more into code than I have ever before, which has prompted me to use c
 .fadeIn1 {
 	-webkit-animation: fade-in 1.2s;
 	   -moz-animation: fade-in 1.2s;
-		  -ms-animation: fade-in 1.2s;
-			 -o-animation: fade-in 1.2s;
-	 				animation: fade-in 1.2s;
+	    -ms-animation: fade-in 1.2s;
+	     -o-animation: fade-in 1.2s;
+	        animation: fade-in 1.2s;
 }
 {% endhighlight %}
 

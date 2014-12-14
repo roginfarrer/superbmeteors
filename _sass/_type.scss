@@ -21,7 +21,7 @@ article, div[class*="navigation"] p {
     text-decoration: underline;
   }
   a:hover, a:visited:hover {
-    color: $darkred;
+    color: $lightred;
     text-decoration: underline;
   }
 }
@@ -208,8 +208,11 @@ sub {
 	overflow-x: scroll;
 	width:110%;
 	pre {
-		line-height: 1.3;
+		line-height: 1;
 		padding: 19px 0 23px 32px;
+		code {
+			-webkit-font-smoothing: subpixel-antialiased;
+		}
 	}
 }
 

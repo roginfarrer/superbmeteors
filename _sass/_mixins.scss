@@ -1,3 +1,14 @@
+@mixin font-kerning($font-kerning) {
+	-webkit-font-kerning: $font-kerning;
+	   -moz-font-kerning: $font-kerning;
+}
+
+@mixin text-size-adjust($text-size-adjust) {
+	-webkit-text-size-adjust: $text-size-adjust;
+	    -ms-text-size-adjust: $text-size-adjust;
+	        text-size-adjust: $text-size-adjust;
+}
+
 @mixin transform($transform...) {
   -ms-transform: $transform;
   -moz-transform: $transform;

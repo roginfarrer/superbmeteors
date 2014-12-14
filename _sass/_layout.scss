@@ -2,12 +2,13 @@ body {
   background-color: $bg;
   border-top: 6px solid $red;
   font-family: $bf;
+	font-kerning: normal;
   font-size: $fs;
   height: 100%;
+	text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  text-size-adjust: 100%;
+  @include text-size-adjust(none);
+	-webkit-font-smoothing: antialiased;
 }
 
 
