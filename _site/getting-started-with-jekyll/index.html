@@ -10,10 +10,10 @@
 	<meta name="twitter:site" content="@RoginFarrer" />
 	<meta name="twitter:creator" content="@RoginFarrer" />
 	<meta property="og:url" content="http://roginfarrer.com/getting-started-with-jekyll" />
-	<meta property="og:title" content="2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing" />
-	<meta property="og:description" content="For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less... But with a revamped roginfarrer.com, I’m making a comeback. This is hopefully the first post of what will be a regular chain of posts for a good while." />
+	<meta property="og:title" content="Starting A Blog With Jekyll" />
+	<meta property="og:description" content="Last week I rebuilt this site on <a href=“http://jekyllrb.com”>Jekyll</a>, and it’s freaking awesome. I had avoided Jekyll in the past because all the code and lack of interface had me seeing stars. But after finally sitting down and reading about how it works, it turns out it’s quite powerful and easy to use. Set up can be a headache, so I thought I’d break down how I got my site going!" />
 
-  <title>2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing — RoginFarrer.com</title>
+  <title>Starting A Blog With Jekyll — RoginFarrer.com</title>
  
 	<link rel="stylesheet" href="/css/main.css" />
 	<link rel="stylesheet" href="/css/base16-monokai.dark.css" />
@@ -29,7 +29,7 @@
   <body>
 
     	<header class="animated fadeInDown cf">
-  <h1 class="home"><a href="/" title="2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing">Rogin Farrer</a></h1>
+  <h1 class="home"><a href="/" title="Starting A Blog With Jekyll">Rogin Farrer</a></h1>
   <nav class="nav">
       <ul>
         <li><a href="/about"><i class="fa fa-user fa-fw"></i> About</a></li>
@@ -42,17 +42,17 @@
 	<div class="container">
         <section class="content fadeIn2">
 	<article>
-    	<h1 class="article-title">2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing</h1>
-        <h5 class="article-meta">Dec 12, 2014 &#149; <span class="read-time"></span> read</h5>
+    	<h1 class="article-title">Starting A Blog With Jekyll</h1>
+        <h5 class="article-meta">Dec 14, 2014 &#149; <span class="read-time"></span> read</h5>
 	    <p>Last week I rebuilt this site on <a href="http://jekyllrb.com">Jekyll</a>, and it’s freaking awesome.</p>
 
-<p>I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood what it did. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.</p>
+<p>I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood how it worked. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.</p>
 
-<p>But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open on trying to figure out what to do. </p>
+<p>But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open each telling me what to do. </p>
 
 <p>So for all you non-programmers interested in Jekyll, this is for you.</p>
 
-<p><strong>HOLD!</strong> I want to reiterate that <em>I’m</em> no programmer. I’m only somewhat familiar with Javascript and PHP. I can’t tell you how the engine behind Jekyll works. <strong><em>But,</em></strong> I can get you up in running in laymen’s terms.</p>
+<p><strong>But first!</strong> I want to reiterate that I’m no programmer. I’m only somewhat familiar with Javascript and PHP. I can’t tell you how the engine behind Jekyll works. But, I can get you up in running in laymen’s terms.</p>
 
 <h4 id="here-we-gohttpyoutubek900hqbnc14"><a href="http://youtu.be/k900hqBNc14">Here we go!</a></h4>
 
@@ -63,9 +63,9 @@
 <ol>
   <li>How to install Jekyll to a local directory</li>
   <li>How to incorporate <a href="http://compass-style.org">Compass</a> and <a href="http://sass-lang.com">SASS</a> into the workflow</li>
-  <li>Setting up Github Pages hosting</li>
-  <li>Configuring Github for Mac to easily deploy your local repository.</li>
-  <li>Setting up Amazon S3 and Cloudfront for a quick and dirty CDN.</li>
+  <li>Setting up <a href="http://github.com">Github Pages</a> hosting</li>
+  <li>Configuring <a href="https://mac.github.com">Github for Mac</a> to easily deploy your local repository.</li>
+  <li>Setting up <a href="http://s3.amazonaws.com">Amazon S3</a> and Cloudfront for a quick and dirty CDN.</li>
 </ol>
 
 <p>Whew! Okay, now we can start.</p>
@@ -98,17 +98,11 @@
 
 <p>In Terminal, enter these lines to create a Jekyll installation:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /your/folder/location/jekyll
-sudo gem install jekyll
-jekyll new .</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd</span> /your/folder/location/jekyll
+<span class="nv">$ </span>sudo gem install jekyll
+<span class="nv">$ </span>jekyll new .</code></pre></div>
 
 <p>With this we navigated to the folder that we want to install jekyll into, we installed Jekyll (<code>sudo</code> to bypass permission errors), and created a new Jekyll repository in our folder. At this point, Jekyll has built a skeleton directory in the folder. I encourage you to stop at this point and poke around and get familiar with the file structure.</p>
-
-<h3 id="install-rdiscount">Install RDiscount</h3>
-
-<p>If you want to write in Markdown, we need to install RDiscount. This gem processes Markdown and converts it to HTML. So in the same Terminal window:</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo gem install rdiscount</code></pre></div>
 
 <h3 id="installing-compass-and-sass">Installing Compass and Sass</h3>
 
@@ -135,7 +129,7 @@ compass create</code></pre></div>
 <span class="nv">destination: </span>  <span class="p">.</span><span class="o">/</span><span class="nx">_site</span>
 <span class="nv">includes: </span>     <span class="p">.</span><span class="o">/</span><span class="nx">_includes</span>
 
-<span class="nv">markdown: </span>     <span class="nx">rdiscount</span>
+<span class="nv">markdown: </span>     <span class="nx">kramdown</span>
 <span class="nv">permalink: </span>    <span class="o">/:</span><span class="nx">title</span><span class="p">.</span><span class="nx">html</span>
 
 <span class="nv">name: </span>         <span class="nx">RoginFarrer</span><span class="p">.</span><span class="nx">com</span>
@@ -155,14 +149,14 @@ compass create</code></pre></div>
 
 <p>We’ve now got our local directory up and running! When you’re ready to open your site locally, open your terminal to a new window.</p>
 
-<div class="highlight"><pre><code class="language-coffee" data-lang="coffee"><span class="nx">cd</span> <span class="o">/</span><span class="nx">your</span><span class="o">/</span><span class="nx">folder</span><span class="o">/</span><span class="nx">location</span><span class="o">/</span><span class="nx">jekyll</span>
-<span class="nx">jekyll</span> <span class="nx">serve</span> <span class="o">-</span><span class="nx">w</span></code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd</span> /your/folder/location/jekyll
+<span class="nv">$ </span>jekyll serve -w</code></pre></div>
 
 <p>Terminal will start running Jekyll! It will also spit out a local web address like <code>http://127.0.0.1:4000/</code> which you can enter to your browser. BAM! There’s your site!</p>
 
 <p>Then to get compass running, type in the usual command:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">compass watch</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>compass watch</code></pre></div>
 
 <p>That’s it! You’re good to go with your local repository.</p>
 
@@ -172,7 +166,13 @@ compass create</code></pre></div>
 
 <p>We’re also going to need GitHub for Mac. If you’re like me, you are probably pretty confused by the interface. No worries! We’ll get through it.</p>
 
-<p>In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’ Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Publish’ in the upper right.</p>
+<p>In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’</p>
+
+<figure>
+<img class="center" src="http://cdn.roginfarrer.com/Screen-Shot-2014-12-14-00-19-05.png" />
+</figure>
+
+<p>Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Commit &amp; Sync’ in the upper right.</p>
 
 <p>Another dialogue box comes up, and now we’ll have to name the repository. Enter <code>yourusername.github.io</code>. Then hit ‘Push Repository.’</p>
 
@@ -194,9 +194,15 @@ compass create</code></pre></div>
 
 <h3 id="flexibility">Flexibility</h3>
 
-<p>I can’t tell you how many house I have spent putting together custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to <code>functions.php</code>. Not being a programmer, it was incredibly frustrating.</p>
+<p>I can’t tell you how many hours I have lost trying to create custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to <code>functions.php</code>. Not being a programmer, it was incredibly frustrating.</p>
 
 <p>With Jekyll, custom post types are a breeze. They only require a new template in the <code>_layouts</code> folder. The ability to create your own liquid tags in a posts Front Matter make link posts really easy.</p>
+
+<p>Front Matter also makes adding meta content to a page super easy. The way I have my homepage now, I like to publish a truncated post summary with links to the full page. Doing this on Wordpress can involve plugins, adding input fields to the post editor, and other headaches. But with Front Matter, I only need to add another line for <code>summary</code>, which i can reference in my <code>index.html</code> with a liquid tag, like ``.</p>
+
+<h2 id="theres-a-lot-more-to-like">There’s a lot more to like</h2>
+
+<p>I’ve only scratched the surface on what Jekyll can do, and I’m still discovering, too. I just set up Pygments as my syntax highlighter, for instance. (If a tutorial for that sounds interesting, let me know.) While Jekyll can look a little scary, it’s really a lot of fun and easy to learn. Hope this helps anyone getting started!</p>
 
 	</article>
 </section>
@@ -206,7 +212,7 @@ compass create</code></pre></div>
     <div class="share">
         <p>Share this post</p>
         <ul>
-            <li><a href="https://twitter.com/share?text=&ldquo;2014 12 6 Starting A Blog With Jekyll When You Have No Idea What You're Doing&rdquo;%20via%20@RoginFarrer%20" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://twitter.com/share?text=&ldquo;Starting A Blog With Jekyll&rdquo;%20via%20@RoginFarrer%20" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://www.facebook.com/sharer/sharer.php?u=" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square"></i></a></li>
             <li><a href="https://plus.google.com/share?url=" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square"></i></a></li>
         </ul>
@@ -221,7 +227,7 @@ compass create</code></pre></div>
                  
             		<p><span class="pagination-head">Previous post</span><br />
             		<a href="">&laquo; Hi, I'm Rogin</a></p>
-				
+								
             </div>
 		</section>
 

@@ -1,21 +1,21 @@
 ---
 layout: post
-Title: "Starting A Blog with Jekyll When You Have No Idea What You’re Doing"
+Title: "Starting A Blog with Jekyll (When You Have No Idea What You’re Doing)"
 category: Web Development
 category_slug: web-development
 permalink: getting-started-with-jekyll
-description: For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less... But with a revamped roginfarrer.com, I’m making a comeback. This is hopefully the first post of what will be a regular chain of posts for a good while.
+description: Last week I rebuilt this site on <a href=“http://jekyllrb.com”>Jekyll</a>, and it’s freaking awesome. I had avoided Jekyll in the past because all the code and lack of interface had me seeing stars. But after finally sitting down and reading about how it works, it turns out it’s quite powerful and easy to use. Set up can be a headache, so I thought I’d break down how I got my site going!
 ---
 
 Last week I rebuilt this site on [Jekyll](http://jekyllrb.com), and it’s freaking awesome.
 
-I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood what it did. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.
+I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood how it worked. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.
 
-But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open on trying to figure out what to do. 
+But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open each telling me what to do. 
 
 So for all you non-programmers interested in Jekyll, this is for you.
 
-**HOLD!** I want to reiterate that *I’m* no programmer. I’m only somewhat familiar with Javascript and PHP. I can’t tell you how the engine behind Jekyll works. ***But,*** I can get you up in running in laymen’s terms.
+**But first!** I want to reiterate that I’m no programmer. I’m only somewhat familiar with Javascript and PHP. I can’t tell you how the engine behind Jekyll works. But, I can get you up in running in laymen’s terms.
 
 #### [Here we go!](http://youtu.be/k900hqBNc14)
 
@@ -25,9 +25,9 @@ Okay, so there’s many ways to build a Jekyll website. This process will all de
 
 1. How to install Jekyll to a local directory
 2. How to incorporate [Compass](http://compass-style.org) and [SASS](http://sass-lang.com) into the workflow
-3. Setting up Github Pages hosting
-4. Configuring Github for Mac to easily deploy your local repository.
-5. Setting up Amazon S3 and Cloudfront for a quick and dirty CDN.
+3. Setting up [Github Pages](http://github.com) hosting
+4. Configuring [Github for Mac](https://mac.github.com) to easily deploy your local repository.
+5. Setting up [Amazon S3](http://s3.amazonaws.com) and Cloudfront for a quick and dirty CDN.
 
 Whew! Okay, now we can start.
 
@@ -60,20 +60,12 @@ Now open up Terminal. It’s time to install Jekyll and some of the tools we nee
 In Terminal, enter these lines to create a Jekyll installation:
 
 {% highlight bash %}
-cd /your/folder/location/jekyll
-sudo gem install jekyll
-jekyll new .
+$ cd /your/folder/location/jekyll
+$ sudo gem install jekyll
+$ jekyll new .
 {% endhighlight %}
 
 With this we navigated to the folder that we want to install jekyll into, we installed Jekyll (`sudo` to bypass permission errors), and created a new Jekyll repository in our folder. At this point, Jekyll has built a skeleton directory in the folder. I encourage you to stop at this point and poke around and get familiar with the file structure.
-
-### Install RDiscount
-
-If you want to write in Markdown, we need to install RDiscount. This gem processes Markdown and converts it to HTML. So in the same Terminal window:
-
-{% highlight bash %}
-sudo gem install rdiscount
-{% endhighlight %}
 
 ### Installing Compass and Sass
 
@@ -105,7 +97,7 @@ source:        .
 destination:   ./_site
 includes:      ./_includes
 
-markdown:      rdiscount
+markdown:      kramdown
 permalink:     /:title.html
 
 name:          RoginFarrer.com
@@ -126,9 +118,9 @@ Be sure to change the variables like `name` to your own!
 
 We’ve now got our local directory up and running! When you’re ready to open your site locally, open your terminal to a new window.
 
-{% highlight coffee %}
-cd /your/folder/location/jekyll
-jekyll serve -w
+{% highlight bash %}
+$ cd /your/folder/location/jekyll
+$ jekyll serve -w
 {% endhighlight %}
 
 Terminal will start running Jekyll! It will also spit out a local web address like `http://127.0.0.1:4000/` which you can enter to your browser. BAM! There’s your site!
@@ -136,7 +128,7 @@ Terminal will start running Jekyll! It will also spit out a local web address li
 Then to get compass running, type in the usual command:
 
 {% highlight bash %}
-compass watch
+$ compass watch
 {% endhighlight %}
 
 That’s it! You’re good to go with your local repository.
@@ -147,7 +139,13 @@ Conveniently, GitHub offers users one free website that lives at `http://youruse
 
 We’re also going to need GitHub for Mac. If you’re like me, you are probably pretty confused by the interface. No worries! We’ll get through it.
 
-In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’ Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Publish’ in the upper right.
+In the upper left, click on the plus to add a new repository. Because we’ve already set up our Jekyll directory, highlight “Add” at the top locate the folder. Then hit ‘Create Repository.’
+
+<figure>
+<img class="center" src="http://cdn.roginfarrer.com/Screen-Shot-2014-12-14-00-19-05.png" />
+</figure>
+
+Now we have to make our first ‘commit,’ which is essentially our first sync to the GitHub servers. In the ‘Summary’ box, type something like “Initial commit,” and then hit ‘Commit & Sync’ in the upper right.
 
 Another dialogue box comes up, and now we’ll have to name the repository. Enter `yourusername.github.io`. Then hit ‘Push Repository.’
 
@@ -169,6 +167,12 @@ Jekyll keeps your local directory and the deployed directory in sync. I can use 
 
 ### Flexibility
 
-I can’t tell you how many house I have spent putting together custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to `functions.php`. Not being a programmer, it was incredibly frustrating.
+I can’t tell you how many hours I have lost trying to create custom post types for Wordpress. The task involves creating new templates, adding custom fields to the post editor, and making additions to `functions.php`. Not being a programmer, it was incredibly frustrating.
 
 With Jekyll, custom post types are a breeze. They only require a new template in the `_layouts` folder. The ability to create your own liquid tags in a posts Front Matter make link posts really easy.
+
+Front Matter also makes adding meta content to a page super easy. The way I have my homepage now, I like to publish a truncated post summary with links to the full page. Doing this on Wordpress can involve plugins, adding input fields to the post editor, and other headaches. But with Front Matter, I only need to add another line for `summary`, which i can reference in my `index.html` with a liquid tag, like `{{ page.summary }}`.
+
+## There’s a lot more to like
+
+I’ve only scratched the surface on what Jekyll can do, and I’m still discovering, too. I just set up Pygments as my syntax highlighter, for instance. (If a tutorial for that sounds interesting, let me know.) While Jekyll can look a little scary, it’s really a lot of fun and easy to learn. Hope this helps anyone getting started!

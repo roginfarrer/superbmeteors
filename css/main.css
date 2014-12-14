@@ -551,10 +551,10 @@ img a {
 }
 
 /* line 177, ../_sass/_type.scss */
-img.aligncenter {
-  display: block;
+.center {
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 10px 15px 4px #b3b3b3;
 }
 
 /* line 178, ../_sass/_type.scss */
@@ -566,7 +566,8 @@ img.aligncenter {
 /* line 179, ../_sass/_type.scss */
 figure img {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  width: auto;
 }
 
 /* line 181, ../_sass/_type.scss */
@@ -605,7 +606,7 @@ sub {
   -ms-border-radius: 5px;
   border-radius: 5px;
   margin: 1.52632em 0 1.52632em -5%;
-  overflow-x: scroll;
+  overflow-x: auto;
   width: 110%;
 }
 /* line 210, ../_sass/_type.scss */
