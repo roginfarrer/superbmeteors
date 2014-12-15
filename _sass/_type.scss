@@ -48,7 +48,7 @@ h1.article-title {
   font-size: $fs1;
   font-weight: 700;
   line-height: 1.38095238em;
-  margin: 0.69047619em 0 0;
+	margin: 0.69047619em 0 .345238095em;
   text-shadow: none;
 }
 
@@ -73,8 +73,9 @@ h3 {
 }
 
 #home-titles {
+	line-height: 2.5rem;
 	margin-top: .90625em;
-	margin-bottom: 0;
+	margin-bottom: .453125em;
   a {
     color: $black;
     text-decoration: none;

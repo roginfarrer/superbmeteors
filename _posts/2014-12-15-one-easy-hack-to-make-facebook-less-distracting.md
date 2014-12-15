@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One Easy Hack to Make Facebook Less Distracting
+title: Hide Facebook's News Feed (And Other Annoyances)
 category: Minimalism
 category_slug: minimalism
 permalink: quiet-facebook
