@@ -184,6 +184,10 @@ figcaption {
   margin-bottom: $mb*2;
 }
 
+.imgbleed figcaption {
+	text-align: center;
+}
+
 hr {
 	border-bottom-color: $lightgray;
 	border-bottom-style:solid;

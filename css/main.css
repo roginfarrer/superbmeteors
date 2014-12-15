@@ -578,6 +578,11 @@ figcaption {
 }
 
 /* line 187, ../_sass/_type.scss */
+.imgbleed figcaption {
+  text-align: center;
+}
+
+/* line 191, ../_sass/_type.scss */
 hr {
   border-bottom-color: #D5D5D5;
   border-bottom-style: solid;
@@ -587,19 +592,19 @@ hr {
   width: 10rem;
 }
 
-/* line 196, ../_sass/_type.scss */
+/* line 200, ../_sass/_type.scss */
 sup, sub {
   vertical-align: baseline;
   position: relative;
   top: -0.4em;
 }
 
-/* line 201, ../_sass/_type.scss */
+/* line 205, ../_sass/_type.scss */
 sub {
   top: 0.4em;
 }
 
-/* line 205, ../_sass/_type.scss */
+/* line 209, ../_sass/_type.scss */
 .highlight {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -609,24 +614,24 @@ sub {
   overflow-x: auto;
   width: 110%;
 }
-/* line 210, ../_sass/_type.scss */
+/* line 214, ../_sass/_type.scss */
 .highlight pre {
   line-height: 1;
   padding: 19px 0 23px 32px;
 }
-/* line 213, ../_sass/_type.scss */
+/* line 217, ../_sass/_type.scss */
 .highlight pre code {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* line 219, ../_sass/_type.scss */
+/* line 223, ../_sass/_type.scss */
 code {
   font-family: monospace;
   font-size: 14px;
   margin-bottom: 1.3em;
 }
 
-/* line 225, ../_sass/_type.scss */
+/* line 229, ../_sass/_type.scss */
 ::selection {
   background: #C07474;
   color: #fff;
