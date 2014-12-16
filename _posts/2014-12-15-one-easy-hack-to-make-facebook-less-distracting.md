@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hide Facebook's News Feed (And Other Annoyances)
-category: Minimalism
-category_slug: minimalism
+category: minimalism
+category_title: Minimalism
 permalink: quiet-facebook
 description: I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. But I’ve found a way to at least make it slightly less distracting.
 ---

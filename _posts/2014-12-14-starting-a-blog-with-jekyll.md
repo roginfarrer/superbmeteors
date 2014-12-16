@@ -1,8 +1,8 @@
 ---
 layout: post
 Title: "Starting A Blog with Jekyll (When You Have No Idea What You’re Doing)"
-category: Web Development
-category_slug: web-development
+category: web-development
+category_title: Web Development
 permalink: getting-started-with-jekyll
 description: Last week I rebuilt this site on <a href=“http://jekyllrb.com”>Jekyll</a>, and it’s freaking awesome. I had avoided Jekyll in the past because all the code and lack of interface had me seeing stars. But after finally sitting down and reading about how it works, it turns out it’s quite powerful and easy to use. Set up can be a headache, so I thought I’d break down how I got my site going!
 ---

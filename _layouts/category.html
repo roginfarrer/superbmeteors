@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1 class="article-title page-title">Category: {{ page.category }}</h1>
+<section class="content cf">
+	<article class="loop">
+		{% for post in site.categories[page.category] %}
+		<h2 id="home-titles">
+			<a href="/{{ post.permalink }}" title="{{ post.title }}">{{ post.title }}</a>
+		</h2>
+		<p>{{ post.description }}</p>
+		<h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/">{{ post.category }}</a></h5>
+		<p><a class="read-more" href="{{ post.url }}" title="{{ post.title }}">Read more &#8594;</a></p>
+		{% endfor %}
+	</article>
+</section>
