@@ -655,12 +655,12 @@ code {
 /* line 247, ../_sass/_type.scss */
 ::selection {
   background: #C07474;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 /* line 1, ../_sass/_layout.scss */
 body {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border-top: 6px solid #a53838;
   font-family: "ratio", helvetica, sans-serif;
   font-kerning: normal;
@@ -801,12 +801,12 @@ nav a:hover {
 }
 /* line 101, ../_sass/_layout.scss */
 .read-more:visited {
-  color: #fff;
+  color: #FFFFFF;
 }
 /* line 104, ../_sass/_layout.scss */
 .read-more:hover {
   background-color: #a53838;
-  color: #fff !important;
+  color: #FFFFFF !important;
   text-decoration: none;
   -ms-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
@@ -817,7 +817,7 @@ nav a:hover {
 
 /* line 112, ../_sass/_layout.scss */
 a.read-more {
-  color: #fff;
+  color: #FFFFFF;
 }
 
 /* line 116, ../_sass/_layout.scss */
@@ -843,7 +843,7 @@ a.read-more {
 /* line 128, ../_sass/_layout.scss */
 .previous a:hover, .next a:hover {
   background-color: #a53838;
-  color: #fff;
+  color: #FFFFFF;
   -ms-transition: color 200ms ease, background-color 200ms ease;
   -moz-transition: color 200ms ease, background-color 200ms ease;
   -o-transition: color 200ms ease, background-color 200ms ease;
@@ -862,7 +862,7 @@ a.read-more {
 /* line 139, ../_sass/_layout.scss */
 .archives p a {
   background: #a53838;
-  color: #fff;
+  color: #FFFFFF;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -878,7 +878,7 @@ a.read-more {
 /* line 147, ../_sass/_layout.scss */
 .archives p a:hover {
   background-color: #C07474;
-  color: #fff;
+  color: #FFFFFF;
   -ms-transition: background-color 500ms ease;
   -moz-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
@@ -1064,7 +1064,7 @@ img[class*="-share"] {
 }
 /* line 286, ../_sass/_layout.scss */
 .work-block h2, .work-block h5 {
-  color: #fff;
+  color: #FFFFFF;
 }
 /* line 289, ../_sass/_layout.scss */
 .work-block h5 {
@@ -1150,7 +1150,7 @@ footer {
 }
 /* line 6, ../_sass/_footer.scss */
 footer h4 {
-  color: #fff;
+  color: #FFFFFF;
   font-weight: 500;
   letter-spacing: 1px;
   margin-top: -0.76316em;
