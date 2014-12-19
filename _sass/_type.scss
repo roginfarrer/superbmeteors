@@ -1,6 +1,5 @@
 p {
   color: $body-black;
-  font-family: $bf;
   line-height: $lh;
   font-weight: 400;
   margin-bottom: $mb;
@@ -16,14 +15,16 @@ p {
 
 article, div[class*="navigation"] p {
   a, a:visited {
-    color: $red;
-    font-weight: 500;
-    text-decoration: underline;
+		color: $red;
+		text-decoration: underline;
   }
   a:hover, a:visited:hover {
-    color: $lightred;
-    text-decoration: underline;
+		color: $lightred;
   }
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+	text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -32,10 +33,12 @@ h1 {
   float: left;
   margin: 0;
   a {
+		border: none;
     color: $black;
     text-decoration: none;
   }
   a:visited {
+		border: none;
     color: $black;
   }
   a:hover {
@@ -47,13 +50,26 @@ h1.article-title {
   float: none;
   font-size: $fs1;
   font-weight: 700;
-  line-height: 1.38095238em;
-	margin: 0.69047619em 0 .345238095em;
+  line-height: 1em;
+	margin: 1.38095238em 0 .345238095em;
   text-shadow: none;
+	a {
+		border:none;
+	}
 }
 
 h1.page-title {
   text-align: center;
+}
+
+h1.latest {
+	float: none;
+	font-size: $fs1;
+	font-weight: 700;
+	line-height: 1em;
+	margin: 5.52380952em 0 .345238095em;
+	text-shadow: none;
+	text-align: center;
 }
 
 h2 {
@@ -77,6 +93,7 @@ h3 {
 	margin-top: .90625em;
 	margin-bottom: .453125em;
   a {
+		border: none;
     color: $black;
     text-decoration: none;
     @include transition(color 200ms ease);
@@ -99,13 +116,13 @@ h5 {
   margin: $lh 0 $lh;
   a {
     color: $gray;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
 h5.article-meta {
   font-style: italic;
-  margin-bottom: 2.7em;
+	margin-bottom: 2.7em;
   margin-top: 0;
 }
 

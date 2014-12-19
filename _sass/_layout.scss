@@ -1,11 +1,10 @@
 body {
   background-color: $bg;
-  border-top: 6px solid $red;
-  font-family: $bf;
+	border-top: 6px solid $red;
+  font-family: $sans;
 	font-kerning: normal;
   font-size: $fs;
   height: 100%;
-	text-rendering: optimizeLegibility;
   overflow-x: hidden;
   @include text-size-adjust(none);
 	-webkit-font-smoothing: antialiased;
@@ -32,7 +31,7 @@ header {
   padding-bottom: 0.5em;
   width: 90%;
   h1 {
-    margin: 0;
+		margin: 0;
   }
   a {
     color: #bababa;
@@ -51,11 +50,8 @@ article {
   margin-top: $mb*5;
 }
 
-.loop:first-of-type {
-  margin-top: $mb;
-}
-
 nav {
+	font-family: $sans;
   font-weight: 500;
   font-size: 16px;
   float: right;
@@ -83,6 +79,13 @@ nav {
     color: $red;
     @include transition(color 200ms ease);
   }
+}
+
+.subhead {
+	color: $red;
+	font-family: $sans;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
 }
 
 .read-more {

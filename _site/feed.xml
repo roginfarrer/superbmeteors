@@ -4,7 +4,7 @@
     <title type="text" xml:lang="en">RoginFarrer.com — Tech, Design, and Theater</title>
     <link type="application/atom+xml" href="http://roginfarrer.com/feed" rel="self"/>
     <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2014-12-16T11:50:51-05:00</updated>
+    <updated>2014-12-18T19:37:04-05:00</updated>
     <id>http://roginfarrer.com</id>
     <author>
         <name>Rogin Farrer</name>
@@ -17,7 +17,9 @@
         <link href="http://roginfarrer.com/quiet-facebook"/>
         <updated>2014-12-15T00:00:00-05:00</updated>
         <id>http://roginfarrer.com/one-easy-hack-to-make-facebook-less-distracting</id>
-        <content type="html">&lt;p&gt;I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. &lt;/p&gt;
+        <content type="html">&lt;p class=&quot;subhead&quot;&gt;How to eliminate Facebook&#39;s news feed for good.&lt;/p&gt;
+
+&lt;p&gt;I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. &lt;/p&gt;
 
 &lt;p&gt;Still, I really hate how distracting it can be. We’ve all gone down the never-ending vortex that is the news feed.&lt;/p&gt;
 
