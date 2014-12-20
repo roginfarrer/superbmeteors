@@ -1,0 +1,82 @@
+/* Background-Color */
+$bg: #FFFFFF;
+$black: #31383E;
+$body-black: #31383E;
+$gray: #767676;
+$lightgray: #D5D5D5;
+$red: #a53838;
+$lightred: #C07474;
+$darkred: #632222;
+
+$sans: 'ratio', helvetica, sans-serif;
+$serif: 'merriweather', georgia, serif;
+$code: monospace;
+$display: 'ratio-display', 'ratio', helvetica, sans-serif;
+
+$lh: 1.526315789;
+$mb: 1.526315789em;
+/* line-height = 29px */
+
+$fs: 1.125em; /* 18px */
+$fs1: 2.210526316em; /* 46.388 */
+$fs2: 1.684210526em; /* 37.11 */
+$fs3: 1.315789474em; /* 29.688 */
+$fs4: 1em; /* 23.75 */
+$fs5: 0.84em; /* 16 */
+$fs6: 0.655em; /* 13 */
+
+$fs_small: 1.125em;
+$fs_smaller: 1.063em;
+
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transition($transition...) {
+	-ms-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	-webkit-transition: $transition;
+	transition: $transition;
+}
+
+@mixin soft-link() {
+	-moz-transition: background-color 500ms ease, color 500ms ease;
+	-o-transition: background-color 500ms ease, color 500ms ease;
+	-webkit-transition: background-color 500ms ease, color 500ms ease;
+	transition: background-color 500ms ease, color 500ms ease;
+}
+
+/* read more */
+@-moz-keyframes bounceOut {
+	0%{ padding: 0; opacity:1;}
+	33%{ padding: 0.2em; opacity:1; }
+	66%{ padding: 0.35em; opacity:1;}
+	100%{ padding: 0.3em; opacity:1;}
+}
+
+@-webkit-keyframes bounceOut {
+	0%{ padding: 0; opacity:1;}
+	33%{ padding: 0.2em; opacity:1; }
+	66%{ padding: 0.35em; opacity:1;}
+	100%{ padding: 0.3em; opacity:1;}
+}
+
+/* nav */
+@-moz-keyframes navBounce {
+	0%{ padding: 0; opacity:1;}
+	33%{ padding: 0.1em 0.3em .05em; opacity:1; }
+	66%{ padding: 0.25em 0.45em .1em; opacity:1;}
+	100%{ padding: 0.2em 0.4em 0em; opacity:1;}
+}
+
+@-webkit-keyframes navBounce {
+	0%{ padding: 0; opacity:1;}
+	33%{ padding: 0.1em 0.3em .05em; opacity:1; }
+	66%{ padding: 0.25em 0.45em .1em; opacity:1;}
+	100%{ padding: 0.2em 0.4em 0em; opacity:1;}
+}

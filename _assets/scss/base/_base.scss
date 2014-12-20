@@ -1,0 +1,11 @@
+body {
+	background-color: $bg;
+	border-top: 6px solid $red;
+	font-family: $sans;
+	font-kerning: normal;
+	font-size: $fs;
+	height: 100%;
+	overflow-x: hidden;
+	@include text-size-adjust(none);
+	-webkit-font-smoothing: antialiased;
+}

@@ -1,10 +1,10 @@
 /*
 
-    Name:       Base16 Monokai Dark
-    Author:     Wimer Hazenberg (http://www.monokai.nl)
+Name:       Base16 Monokai Dark
+Author:     Wimer Hazenberg (http://www.monokai.nl)
 
-    Pygments template by Jan T. Sott (https://github.com/idleberg)
-    Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
+Pygments template by Jan T. Sott (https://github.com/idleberg)
+Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
 
 */
 .highlight .hll { background-color: #49483e }
@@ -75,3 +75,23 @@
 
 .post > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
 .post > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+
+.highlight {
+	@include border-radius(5px);
+	margin: $mb 0 $mb -5%;
+	overflow-x: auto;
+	width:110%;
+	pre {
+		line-height: 1;
+		padding: 19px 0 23px 32px;
+		code {
+			-webkit-font-smoothing: subpixel-antialiased;
+		}
+	}
+}
+
+code {
+	font-family: $code;
+	font-size: 14px;
+	margin-bottom: 1.3em;
+}

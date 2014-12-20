@@ -13,7 +13,7 @@ url: http://roginfarrer.com
 description: "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
 root_desc: "RoginFarrer.com — Tech, Design, and Theater"
 
-exclude: ['Rakefile', 'README.markdown', 'config.rb']
+exclude: ['Rakefile', 'README.markdown', 'README.md', 'config.rb']
 include: ['.htaccess']
 
 paginate: 5

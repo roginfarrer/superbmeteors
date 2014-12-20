@@ -1,0 +1,49 @@
+header {
+	border-bottom: 1px solid #efefef;
+	margin: $mb*4 auto 0.7em;
+	max-width: 750px;
+	padding-bottom: 0.5em;
+	width: 90%;
+	h1 {
+		font-family: $sans;
+		margin: 0;
+	}
+	a {
+		color: #bababa;
+		@include transition(color 500ms ease);
+	}
+	a:hover {
+		@include transition(color 500ms ease);
+	}
+}
+
+nav {
+	font-family: $sans;
+	font-weight: 500;
+	font-size: 16px;
+	float: right;
+	margin: 0;
+	line-height: $lh;
+	ul {
+		margin: 0;
+		li {
+			display: inline-block;
+			line-height: $lh;
+			padding: 0;
+			margin: 0 1em;
+		}
+		li:last-of-type {
+			margin-right: 0;
+		}
+		li:first-of-type {
+			margin-left: 0;
+		}
+	}
+	a {
+		@include transition(color 200ms ease);
+	}
+	a:hover {
+		color: $red;
+		@include transition(color 200ms ease);
+	}
+}

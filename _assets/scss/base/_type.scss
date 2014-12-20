@@ -1,0 +1,151 @@
+p {
+	color: $body-black;
+	line-height: $lh;
+	font-weight: 400;
+	margin-bottom: $mb;
+	code {
+		background: #fafafa;
+		border: 1px solid #ddd; 
+		@include border-radius(5px);
+		font-family: $code;
+		margin-bottom: $mb;
+		padding: 3px 4px 3px 4px;
+	}
+}
+
+article, div[class*="navigation"] p {
+	a, a:visited {
+		color: $red;
+		font-weight: 600;
+		text-decoration: underline;
+	}
+	a:hover, a:visited:hover {
+		color: $lightred;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+	text-rendering: optimizeLegibility;
+	font-family: $display;
+}
+
+h1 {
+	font-size: 19px;
+	font-weight: 500;
+	float: left;
+	margin: 0;
+	a {
+		border: none;
+		color: $black;
+		text-decoration: none;
+	}
+	a:visited {
+		border: none;
+		color: $black;
+	}
+	a:hover {
+		color: $red;
+	}
+}
+
+h2 {
+	color: $black;
+	font-size: $fs2;
+	font-weight: 500;
+	line-height: 1.8125em;
+	margin: 1.8125em 0 0.90625em;
+}
+
+h3 {
+	color: $black;
+	font-weight: 500;
+	font-size: $fs3;
+	line-height: 1.16em;
+	margin: 1.16em 0 1.16em;
+}
+
+h4 {
+	font-size: $fs4;
+	margin: $mb 0 $mb;
+}
+
+h5 {
+	color: $gray;
+	font-size: $fs5;
+	line-height: $lh;
+	margin: $lh 0 $lh;
+	a {
+		color: $gray;
+		text-decoration: none;
+	}
+}
+
+h6 {
+	font-size: $fs6;
+	line-height: 2.8698em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+ul {
+	color: $black;
+	list-style-type: disc;
+	margin-bottom: $mb;
+	li {
+		margin-bottom: $mb/2;
+	}
+}
+
+ol {
+	color: $black;
+	list-style-type: decimal;
+	margin-bottom: $mb;
+}
+
+li {
+	color: $body-black;
+	line-height: $lh;
+	margin-left: 2.5em;
+}
+
+blockquote {
+	border-left: 0.5em solid $red;
+	font-size: $fs3;
+	padding-left: 1.2em;
+	margin-left: -3.5em;
+	margin-top: $mb;
+	p {
+		color: $gray;
+		font-style: italic;
+		margin-bottom: 1.3em;
+	}
+}
+
+hr {
+	border-bottom-color: $lightgray;
+	border-bottom-style:solid;
+	border-width: 0 0 2px;
+	margin: -2px auto $mb*2;
+	padding-top: $mb;
+	width: 10rem;
+}
+
+sup, sub {
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}
+sub {
+	top: 0.4em;
+}
+
+::selection {
+	background: $lightred;
+	color: $bg;
+}
