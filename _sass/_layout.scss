@@ -26,11 +26,12 @@ body {
 
 header {
   border-bottom: 1px solid #efefef;
-  margin: 0.7em auto;
+  margin: $mb*4 auto 0.7em;
   max-width: 750px;
   padding-bottom: 0.5em;
   width: 90%;
   h1 {
+		font-family: $sans;
 		margin: 0;
   }
   a {

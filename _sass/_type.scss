@@ -16,6 +16,7 @@ p {
 article, div[class*="navigation"] p {
   a, a:visited {
 		color: $red;
+		font-weight: 600;
 		text-decoration: underline;
   }
   a:hover, a:visited:hover {
@@ -25,6 +26,7 @@ article, div[class*="navigation"] p {
 
 h1, h2, h3, h4, h5, h6, blockquote {
 	text-rendering: optimizeLegibility;
+	font-family: $display;
 }
 
 h1 {
@@ -48,13 +50,13 @@ h1 {
 
 h1.article-title {
   float: none;
-  font-size: $fs1;
-  font-weight: 700;
+  font-size: $fs2;
   line-height: 1em;
 	margin: 1.38095238em 0 .345238095em;
   text-shadow: none;
 	a {
 		border:none;
+		font-weight: 500;
 	}
 }
 

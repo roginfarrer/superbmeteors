@@ -7,7 +7,7 @@ permalink: quiet-facebook
 description: I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. But I’ve found a way to at least make it slightly less distracting.
 ---
 
-<p class="subhead">How to eliminate Facebook's news feed for good.</p>
+<h4 class="subhead">How to eliminate Facebook's news feed for good.</h4>
 
 I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. 
 
