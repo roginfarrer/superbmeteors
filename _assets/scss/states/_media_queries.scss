@@ -3,10 +3,9 @@
 		margin-left: 0;
 		padding-left: 1em;
 	}
-	.alignleft, .alignright, .imgbleed {
+	.alignleft, .alignright {
 		display: block;
 		float: none;
-		margin: 0 auto;
 		max-width: 100%;
 	}
 	.previous, .archives, .next, .column.real-third {
@@ -22,8 +21,27 @@
 		margin-left: 1em;
 	}
 	.highlight {
-		margin-left: 0;
-		width: 100%;
+		@include border-radius(0px);
+	}
+	.post-footer, .pagination {
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	article {
+		p, h1, h2, h3, h4, h5, h6, blockquote, ul, ol, .article-title, .alignleft, .alignright {
+			width: 92%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.highlight, .imgbleed {
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			pre {
+				padding-left: 23px;
+			}
+		}
 	}
 }
 

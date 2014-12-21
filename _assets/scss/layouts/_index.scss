@@ -18,6 +18,12 @@
 	display: inline-block;
 	float: left;
 	margin-top: 0.8em;
+	a, a:visited {
+		color: $red;
+	}
+	a:hover {
+		color: $lightred;
+	}
 }
 
 .read-more {
