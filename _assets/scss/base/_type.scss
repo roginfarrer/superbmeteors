@@ -13,14 +13,20 @@ p {
 	}
 }
 
-article, div[class*="navigation"] p {
-	a, a:visited {
-		color: $red;
-		font-weight: 600;
-		text-decoration: underline;
-	}
-	a:hover, a:visited:hover {
-		color: $lightred;
+article, 
+div[class*="navigation"] {
+	p, ul, ol, h4, blockquote {
+		a, a:visited {
+			border-bottom: 2px solid transparent;
+			color: $red;
+			font-weight: 600;
+			text-decoration: none;
+			@include transition(border 200ms, color 200ms ease-out);
+		}
+		a:hover, a:visited:hover {
+			border-bottom: 3px solid #efefef;
+			color: $lightred;
+		}
 	}
 }
 
@@ -66,7 +72,9 @@ h3 {
 
 h4 {
 	font-size: $fs4;
+	font-weight: 500;
 	margin: $mb 0 $mb;
+	text-transform: uppercase;
 }
 
 h5 {

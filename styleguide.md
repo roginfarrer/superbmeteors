@@ -41,9 +41,9 @@ I do lot of reading, and it's useful to use quotations when referencing them. He
 Like line breaks, I don't use images often, but I want them to pack a punch when I do.
 
 <figure class="imgbleed"><img src="http://cdn.roginfarrer.com/aboutrogin.jpeg" />
-<figcaption>At Vassar, it's a tradition for rising seniors to ring the bell atop Main building, which oversees the campus.</figure>
+<figcaption>At Vassar, it's a tradition for rising seniors to ring the bell atop Main building, which oversees the campus.</figcaption></figure>
 
-I've been more into code than I have ever before, which has prompted me to use code blocks for the first time. Here's a sample:
+I've been more into code than I have ever before, which has prompted me to use code blocks for the first time. I'm using [Courier Prime](http://quoteunquoteapps.com/courierprime/) for my code fonts. Here's a sample:
 
 {% highlight CSS %}
 .fadeIn1 {

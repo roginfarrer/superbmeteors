@@ -1,50 +1,13 @@
-<!DOCTYPE html>
-<html>
+---
+layout: post
+Title: My Top Albums of 2014
+category: music
+category_title: Music
+permalink: top-albums-of-2014
+description: I like music, and I like sharing music, so I thought I’d go over my favorite albums of the year. Just a warning&#58; some of these albums aren’t from 2014, so… Don’t get upset.
+---
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width initial-scale=1">
-	<meta name="author" content="Rogin Farrer">
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@RoginFarrer" />
-	<meta name="twitter:creator" content="@RoginFarrer" />
-	<meta property="og:url" content="http://roginfarrer.com/index.html" />
-	<meta property="og:title" content="RoginFarrer.com" />
-	<meta property="og:description" content="A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer." />
-
-  <title>Tech, Design, and Theater — RoginFarrer.com</title>
- 
-	<link rel="stylesheet" href="/css/style.css" />
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="alternate" type="application/atom+xml" title="" href="http://roginfarrer.com/feed/" />
-	<link rel="canonical" href="/index.html" />
-  
-  <!-- Typekit -->
-  <script src="//use.typekit.net/hnz6jnk.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-</head>
-
-  <body>
-
-    	<header class="animated fadeInDown cf">
-  <h1 class="home"><a href="/" title="">Rogin Farrer</a></h1>
-  <nav class="nav">
-      <ul>
-        <li><a href="/about"><i class="fa fa-user fa-fw"></i> About</a></li>
-        <li><a href="/"><i class="fa fa-book fa-fw"></i> Posts</a></li>
-        <li><a href="/work"><i class="fa fa-briefcase fa-fw"></i> Work</a></li>
-      </ul>
-  </nav>
-</header>
-	
-	<div class="container">
-    <div class="wrapper">
-        <section class="content cf">
-  
-    <article>
-			<h1 class="article-title"><a href="/top-albums-of-2014" title="My Top Albums Of 2014">My Top Albums Of 2014</a></h1>
-          <p><h4 class="subhead">I like music, and I like sharing music, so I thought I’d go over my favorite albums of the year.</h4>
+<h4 class="subhead">I like music, and I like sharing music, so I thought I’d go over my favorite albums of the year.</h4>
 
 <p>Just a warning: some of these albums aren’t from 2014, so&#8230; Don’t get upset.</p>
 
@@ -197,75 +160,3 @@
 <iframe width="600" height="600" src="https://rd.io/i/Qd-H2TPj16k/" frameborder="0"></iframe>
 
 <iframe class="center-block" src="https://embed.spotify.com/?uri=spotify:user:1212116974:playlist:2vEKGRKLnSXxPmoFVBYBMa" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-</p>
-          <h5 class="loop-meta">Posted on Dec 26, 2014 in <a href="/category/music">Music</a></h5>
-          
-    </article>
-  
-  <h1 class="latest">Latest Posts</h1>
-		
-	<article class="loop">
-		<h2 id="home-titles">
-			<a href="/quiet-facebook" title="Hide Facebook's News Feed (And Other Annoyances)">Hide Facebook's News Feed (And Other Annoyances)</a>
-		</h2>
-		<p>I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. But I’ve found a way to at least make it slightly less distracting.</p>
-		<h5 class="loop-meta">Posted on Dec 15, 2014 in <a href="/category/minimalism">Minimalism</a></h5>
-		<p>
-			<a class="read-more" href="/quiet-facebook" title="Hide Facebook's News Feed (And Other Annoyances)">Read more &#8594;</a>
-		</p>
-	</article>
-	
-	<article class="loop">
-		<h2 id="home-titles">
-			<a href="/getting-started-with-jekyll" title="Starting A Blog With Jekyll">Starting A Blog With Jekyll</a>
-		</h2>
-		<p>Last week I rebuilt this site on <a href=“http://jekyllrb.com”>Jekyll</a>, and it’s freaking awesome. I had avoided Jekyll in the past because all the code and lack of interface had me seeing stars. But after finally sitting down and reading about how it works, it turns out it’s quite powerful and easy to use. Set up can be a headache, so I thought I’d break down how I got my site going!</p>
-		<h5 class="loop-meta">Posted on Dec 14, 2014 in <a href="/category/web-development">Web Development</a></h5>
-		<p>
-			<a class="read-more" href="/getting-started-with-jekyll" title="Starting A Blog With Jekyll">Read more &#8594;</a>
-		</p>
-	</article>
-	
-	<article class="loop">
-		<h2 id="home-titles">
-			<a href="/hi-im-rogin" title="Hi, I'm Rogin">Hi, I'm Rogin</a>
-		</h2>
-		<p>For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less... But with a revamped roginfarrer.com, I’m making a comeback. This is hopefully the first post of what will be a regular chain of posts for a good while.</p>
-		<h5 class="loop-meta">Posted on Nov 29, 2014 in <a href="/category/updates">Updates</a></h5>
-		<p>
-			<a class="read-more" href="/hi-im-rogin" title="Hi, I'm Rogin">Read more &#8594;</a>
-		</p>
-	</article>
-	
-
-</section>
-    </div>
-	</div>
-
-    <footer class="cf">
-      <img class="rogin-icon" alt="Rogin's photo" src="http://www.gravatar.com/avatar/1d03e5cfce3294705159e7780d039ddb.png" />
-  <h4>Rogin Farrer</h4>
-  <p>Senior drama major at Vassar College, designer, and writer.<br> I enjoy story-telling, technology, and good coffee.</p>
-  <ul>
-      <li><a href="http://twitter.com/RoginFarrer"><img class="twitter-follow" src="http://cdn.roginfarrer.com/social-icons/twitter.png"/></a></li>
-      <li><a href="http://www.linkedin.com/in/roginfarrer/"><img class="linkedin-follow" src="http://cdn.roginfarrer.com/social-icons/linkedin.png"/></a></li>
-      <li><a href="https://www.rdio.com/people/rogin/"><img class="rdio-follow" src="http://cdn.roginfarrer.com/social-icons/rdio.png"/></a></li>
-      <li><a href="mailto:rogin@roginfarrer.com"><img class="mail-follow" src="http://cdn.roginfarrer.com/social-icons/mail.png"/></a></li>
-      <li><a href="http://roginfarrer.com/feed"><img class="feed-follow" src="http://cdn.roginfarrer.com/social-icons/feed.png"/></a></li>
-  </ul>
-  <h5>&#169; 2014 Rogin Farrer</h5>
-</footer>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56058775-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-  </body>
-
-</html>

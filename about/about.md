@@ -22,4 +22,4 @@ If you’d like to get updates from me, [sign up for blog posts via email]() (I 
 
 ### Colophon
 
-I designed and built this site with [Jekyll](http://jekyllrb.com), [Github Pages](http://github.com) for hosting, [Sublime Text](http://sublimetext.com), [Sass](http://sass-lang.com), [Compass](http://compass-style.org), and [Typekit](http://typekit.com). All copy is set in Ratio, except for the code blocks, which is set in Source Code Pro. Feel free to check out the [style guide](/styleguide).
+I designed and built this site with [Jekyll](http://jekyllrb.com), [Github Pages](http://github.com) for hosting, [Sublime Text](http://sublimetext.com), [Sass](http://sass-lang.com), [Compass](http://compass-style.org), and [Typekit](http://typekit.com). All copy is set in Ratio, except for the code blocks, which is set in [Courier Prime](http://quoteunquoteapps.com/courierprime/). Feel free to check out the [style guide](/styleguide).

@@ -9,7 +9,7 @@
 		@include transition(color 200ms ease);
 	}
 	a:hover {
-		color: $red;
+		color: $red !important;
 		@include transition(color 200ms ease);
 	}
 }
