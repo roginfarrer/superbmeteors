@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: My Top Albums of 2014
+title: My Top Albums of 2014
 category: music
 category_title: Music
 permalink: top-albums-of-2014

@@ -9,16 +9,16 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@RoginFarrer" />
 	<meta name="twitter:creator" content="@RoginFarrer" />
-	<meta property="og:url" content="http://roginfarrer.com/quiet-facebook" />
-	<meta property="og:title" content="Hide Facebook's News Feed (And Other Annoyances)" />
-	<meta property="og:description" content="I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. But I’ve found a way to at least make it slightly less distracting." />
+	<meta property="og:url" content="http://roginfarrer.com/archive-and-delete-ios-mail" />
+	<meta property="og:title" content="Adding Archive and Delete Swipe Actions to Apple iOS Mail" />
+	<meta property="og:description" content="A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer." />
 
-  <title>Hide Facebook's News Feed (And Other Annoyances) — RoginFarrer.com</title>
+  <title>Adding Archive and Delete Swipe Actions to Apple iOS Mail — RoginFarrer.com</title>
  
 	<link rel="stylesheet" href="/css/style.css" />
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
   <link rel="alternate" type="application/atom+xml" title="" href="http://roginfarrer.com/feed/" />
-	<link rel="canonical" href="/quiet-facebook" />
+	<link rel="canonical" href="/archive-and-delete-ios-mail" />
   
   <!-- Typekit -->
   <script src="//use.typekit.net/hnz6jnk.js"></script>
@@ -28,7 +28,7 @@
   <body>
 
     	<header class="animated fadeInDown cf">
-  <h1 class="home"><a href="/" title="Hide Facebook's News Feed (And Other Annoyances)">Rogin Farrer</a></h1>
+  <h1 class="home"><a href="/" title="Adding Archive and Delete Swipe Actions to Apple iOS Mail">Rogin Farrer</a></h1>
   <nav class="nav">
       <ul>
         <li><a href="/about"><i class="fa fa-user fa-fw"></i> About</a></li>
@@ -42,39 +42,45 @@
     <div class="wrapper">
         <section class="content fadeIn2">
 	<article>
-    	<h1 class="article-title">Hide Facebook's News Feed (And Other Annoyances)</h1>
-        <h5 class="article-meta">Dec 15, 2014 | <span class="read-time"></span> read</h5>
-	    <h4 class="subhead">How to eliminate Facebook's news feed for good.</h4>
+    	<h1 class="article-title">Adding Archive and Delete Swipe Actions to Apple iOS Mail</h1>
+        <h5 class="article-meta">Dec 28, 2014 | <span class="read-time"></span> read</h5>
+	    <h4 class="subhead">Using swiping to both archive and delete mail in Apple Mail</h4>
 
-<p>I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. </p>
+<p>While Dispatch is by and far a superior email client on the iPhone (at least in terms of functionality), I find myself still returning to the stock Mail app. Why? Well, for one, I find it pleasingly minimal. I like to use Dispatch for sending tasks to Things or articles to Instapaper, but the rest of its features, like snippets, is just bloat for me. Apple Mail also supports faster search.</p>
 
-<p>Still, I really hate how distracting it can be. We’ve all gone down the never-ending vortex that is the news feed.</p>
+<p>One big gripe I had about Apple Mail, though, was the limited options provided to you when you swipe on an email. For most people, swiping a message to the left gives you three options: trash (or archive), flag, or ‘more,’ which would give you a few more options. The problem for me is that you can easily <em>discard</em> a message, but there’s no option to <em>archive</em> a message. </p>
 
-<p>In an effort to minimize Facebook in as much of my life as possible, I’ve taken some decidedly simple steps: I’ve deleted the Facebook app from all of my mobile devices, and if I really need to get away from it, I block <em>m.facebook.com</em> from Safari using iOS Restrictions. (I can disable it easily, but the obstacle of doing so can be enough to keep me off the site.) Doing this still allows me to use the Messenger app, which is all I need on the go.</p>
+<p>You can rotate out the trash option for archive, but then you can’t delete the message, etc, etc.</p>
 
-<p>Then there’s the desktop, which isn’t so simple. I still need a way to see my notifications and people’s profiles, but all that other stuff can go. Fortunately, I’ve found a way to do just that.</p>
+<figure class="aligncenter">
+	<img width="250" height="auto" src="http://cdn.roginfarrer.com/default-options.png" />
+	<figcaption>You can find this option by accessing Settings &gt; Mail &gt; YourMailAccount &gt; YourEmailAddress &gt; Advanced.</figcaption>
+</figure>
 
-<figure class="imgbleed"><img src="http://cdn.roginfarrer.com/quiet-facebook.png" /><figcaption>Where'd the news feed go?? :)</figcaption></figure>
+<p>At some point since the release of iOS 8, however, <strong>Apple sneakily added support for <em>both</em> swipe actions in the Inbox list.</strong> So now you can select one function above for the ‘swipe left’ menu, and the other function for swiping right.</p>
 
-<p>The first thing I eliminated was the news feed, which I accomplished by using Max Friedrich’s <a href="https://github.com/maxfriedrich/quiet-facebook">Quiet Facebook</a>, a custom stylesheet that cleanly removes the news feed from the web page.</p>
+<figure class="grid-container">
+	<img width="250" height="auto" class="column third" src="http://cdn.roginfarrer.com/swipe-options.png" />
+	<img width="250" height="auto" class="column third" src="http://cdn.roginfarrer.com/swipe-options-menu.png" />
+	<img width="250" height="auto" class="column third" src="http://cdn.roginfarrer.com/swipe-right.png" />
+	<figcaption>Hit 'Swipe Right' and you'll reveal the option menu.</figcaption>
+</figure>
 
-<p>That satisfied for me for a while, but then I started finding other elements on the  page to distract me, like TRENDING NEWS (ugh). So I made an addition to the stylesheet to block out Trending News and Suggested Pages/Groups. </p>
+<p>Annnnndddd suddenly Apple Mail is <em>so</em> much better. However, I think we’re all still waiting for Share Sheet support…</p>
 
-<p><a href="https://github.com/roginfarrer/quiet-facebook">Download my updated stylesheet here.</a></p>
-
-<p>It’s super easy to set up. Download it to you desktop and unzip the folder. Then open Preferences in Safari, navigate to the Advanced tab, and in the Style sheet dropdown, select <code>quiet-facebook.css</code>. Boom. It’s gone.</p>
-
-<p>Huzzah! A minimalist Facebook experience.</p>
+<figure class="aligncenter">
+	<img width="250" height="auto" src="http://cdn.roginfarrer.com/mail-with-archive.png" />
+</figure>
 
 	</article>
 </section>
 		
 <section class="content post-footer cf">
-	<h5 class="article-category">Filed under: <a href="/category/minimalism">Minimalism</a></h5>
+	<h5 class="article-category">Filed under: <a href="/category/apple">Apple</a></h5>
     <div class="share">
         <p>Share this post</p>
         <ul>
-            <li><a href="https://twitter.com/share?text=&ldquo;Hide Facebook's News Feed (And Other Annoyances)&rdquo;%20via%20@RoginFarrer%20" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://twitter.com/share?text=&ldquo;Adding Archive and Delete Swipe Actions to Apple iOS Mail&rdquo;%20via%20@RoginFarrer%20" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://www.facebook.com/sharer/sharer.php?u=" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square"></i></a></li>
             <li><a href="https://plus.google.com/share?url=" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square"></i></a></li>
         </ul>
@@ -83,15 +89,12 @@
         
         <section class="content pagination cf">
             <div class="navigation-next">
-                 
-                	<p><span class="pagination-head">Next post</span><br />
-                	<a href="/top-albums-of-2014">My Top Albums of 2014 &raquo</a></p>
-								
+                
             </div>
             <div class="navigation-prev">
                  
             		<p><span class="pagination-head">Previous post</span><br />
-            		<a href="/getting-started-with-jekyll">&laquo; Starting A Blog With Jekyll</a></p>
+            		<a href="/top-albums-of-2014">&laquo; My Top Albums of 2014</a></p>
 								
             </div>
 		</section>
