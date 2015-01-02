@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     
-    <title type="text" xml:lang="en">RoginFarrer.com — Tech, Design, and Theater</title>
+    <title type="text" xml:lang="en">Rogin Farrer</title>
     <link type="application/atom+xml" href="http://roginfarrer.com/feed" rel="self"/>
     <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2014-12-28T20:13:38-05:00</updated>
+    <updated>2015-01-02T14:51:22-05:00</updated>
     <id>http://roginfarrer.com</id>
     <author>
         <name>Rogin Farrer</name>

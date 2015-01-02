@@ -1,36 +1,71 @@
 header {
-	border-bottom: 1px solid #efefef;
-	margin: $mb*4 auto 0.7em;
-	max-width: 750px;
+	border-bottom: 1px dotted #c9c9c9;
+	margin: 0.7em auto 0;
+	max-width: 650px;
 	padding-bottom: 0.5em;
-	width: 90%;
-	h1 {
-		font-family: $sans;
-		margin: 0;
-	}
+	width: 100%;
 	a {
-		color: #bababa;
-		@include transition(color 500ms ease);
+		@include transition(color 200ms ease);
 	}
 	a:hover {
-		@include transition(color 500ms ease);
+		@include transition(color 200ms ease);
+		color: $red;
+	}
+	h1 {
+		color: $black;
+		font-family: $body-font;
+		font-size: 19px;
+		font-weight: 700;
+		font-variant: small-caps;
+		float: left;
+		margin: 0;
+		a, a:visited {
+			color: $black;
+		}
+		a:hover {
+			color: $red;
+		}
+	}
+	@media (min-width: 600px) {
+		padding-top: $mb*2;
+	}
+}
+
+.cover-wrap {
+	margin: 0 auto;
+	width: 92%;
+	@media (min-width: 650px) {
+		width: 100%;
+	}
+}
+
+#headline {
+	@media (max-width: 600px) {
+		display: none;
+		visibility: hidden;
 	}
 }
 
 nav {
-	font-family: $sans;
+	font-family: $heading-font;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 15px;
 	float: right;
 	margin: 0;
 	line-height: $lh;
+	a, a:visited {
+		color: #bababa;
+	}
+	a:hover {
+		color: $red;
+	}
 	ul {
 		margin: 0;
 		li {
 			display: inline-block;
 			line-height: $lh;
 			padding: 0;
-			margin: 0 1em;
+			margin: 0 0.5em;
 		}
 		li:last-of-type {
 			margin-right: 0;
@@ -39,11 +74,11 @@ nav {
 			margin-left: 0;
 		}
 	}
-	a {
-		@include transition(color 200ms ease);
-	}
-	a:hover {
-		color: $red;
-		@include transition(color 200ms ease);
+}
+
+.nav-text {
+	@media (max-width: 400px) {
+		visibility: hidden;
+		display: none;
 	}
 }

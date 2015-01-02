@@ -4,7 +4,7 @@ title: Adding Archive and Delete Swipe Actions to Apple iOS Mail
 category: apple
 category_title: Apple
 permalink: archive-and-delete-ios-mail
-description:
+description: A quick tutorial on how to add a "swipe right" function to Apple Mail, so you can both swipe to archive AND swipe to delete mail. Hooray proper mail management!
 ---
 
 <h4 class="subhead">Using swiping to both archive and delete mail in Apple Mail</h4>

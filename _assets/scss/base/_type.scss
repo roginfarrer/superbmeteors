@@ -32,47 +32,29 @@ div[class*="navigation"] {
 
 h1, h2, h3, h4, h5, h6, blockquote {
 	text-rendering: optimizeLegibility;
-	font-family: $display;
-}
-
-h1 {
-	font-size: 19px;
-	font-weight: 500;
-	float: left;
-	margin: 0;
-	a {
-		border: none;
-		color: $black;
-		text-decoration: none;
-	}
-	a:visited {
-		border: none;
-		color: $black;
-	}
-	a:hover {
-		color: $red;
-	}
+	font-family: $heading-font;
 }
 
 h2 {
 	color: $black;
 	font-size: $fs2;
-	font-weight: 500;
-	line-height: 1.8125em;
-	margin: 1.8125em 0 0.90625em;
+	font-weight: 700;
+	line-height: 1.925925926;
+	margin: 1.925925926em 0 0.962962963em;
 }
 
 h3 {
 	color: $black;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: $fs3;
-	line-height: 1.16em;
-	margin: 1.16em 0 1.16em;
+	line-height: 1.238095238;
+	margin: 1.238095238em 0 1.238095238em;
 }
 
 h4 {
+	color: $black;
 	font-size: $fs4;
-	font-weight: 500;
+	font-weight: 700;
 	margin: $mb 0 $mb;
 	text-transform: uppercase;
 }

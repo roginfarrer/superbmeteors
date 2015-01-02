@@ -10,7 +10,7 @@
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
-  <title>{% if page.title %}{{ page.title }} — {{ site.name }}{% else %}Tech, Design, and Theater — {{ site.name }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} — {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
  
 	<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" />
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />

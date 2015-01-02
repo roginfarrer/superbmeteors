@@ -5,10 +5,12 @@ footer {
 	width: 100%;
 	h4 {
 		color: $bg;
-		font-weight: 500;
+		font-family: $body-font;
+		font-weight: 600;
 		letter-spacing: 1px;
 		margin-top: -$mb/2;
 		margin-bottom: $mb/2;
+		text-transform: none;
 	}
 	p {
 		color: #969696;

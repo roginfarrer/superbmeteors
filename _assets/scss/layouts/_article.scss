@@ -1,12 +1,18 @@
 h1.article-title {
-	float: none;
+	color: $black;
 	font-size: $fs2;
-	line-height: 1em;
-	margin: 1.38095238em 0 .345238095em;
-	text-shadow: none;
-	a {
-		border:none;
-		font-weight: 500;
+	font-weight: 700;
+	line-height: 1;
+	margin: 1.57575758em 0 0.78787879em;
+	a, a:visited {
+		@include transition(color 200ms ease);
+		border: none;
+		color: $black;
+		text-decoration: none;
+	}
+	a:hover {
+		@include transition(color 200ms ease);
+		color: $red;
 	}
 }
 
@@ -17,10 +23,10 @@ h5.article-meta {
 }
 
 .subhead {
-	color: $lightred;
-	font-weight: 500;
+	color: $red;
+	font-weight: 600;
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	font-variant: small-caps;
 }
 
 .pagination {
@@ -32,6 +38,7 @@ h5.article-meta {
 
 .pagination-head {
 	color: $body-black;
+	font-family: $heading-font;
 	font-size: $fs6;
 	font-weight: bold;
 	letter-spacing: 2px;

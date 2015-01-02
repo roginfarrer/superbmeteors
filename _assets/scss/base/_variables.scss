@@ -1,32 +1,30 @@
 /* Background-Color */
 $bg: #FFFFFF;
-$black: #31383E;
-$body-black: #31383E;
+$black: #3d464d;
+$body-black: #3d464d;
 $gray: #767676;
 $lightgray: #D5D5D5;
 $red: #a53838;
 $lightred: #C07474;
 $darkred: #632222;
 
-$sans: 'ratio', helvetica, sans-serif;
-$serif: 'merriweather', georgia, serif;
-$code: 'courier_primeregular', monospace;
-$display: 'ratio-display', 'ratio', helvetica, sans-serif;
+$body-font: 'rooney-web', georgia, serif; 
+$heading-font: 'source-sans-pro', verdana, helvetica, sans-serif;
+$code: 'courier_primeregular', 'menlo', monospace;
 
-$lh: 1.526315789;
-$mb: 1.526315789em;
+$lh: 1.529411765;
+$mb: 1.529411765em ;
 /* line-height = 29px */
 
-$fs: 1.125em; /* 18px */
-$fs1: 2.210526316em; /* 46.388 */
-$fs2: 1.684210526em; /* 37.11 */
-$fs3: 1.315789474em; /* 29.688 */
+$fs: 1.0625em; /* 18px */
+$fs1: 1.941176471em; /* 46.388 */
+$fs2: 1.588235294em; /* 37.11 */
+$fs3: 1.235294118em; /* 29.688 */
 $fs4: 1em; /* 23.75 */
 $fs5: 0.84em; /* 16 */
 $fs6: 0.655em; /* 13 */
 
-$fs_small: 1.125em;
-$fs_smaller: 1.063em;
+$fs_small: 1em;
 
 
 @mixin border-radius($radius) {
