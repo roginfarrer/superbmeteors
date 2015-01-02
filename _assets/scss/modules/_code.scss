@@ -7,8 +7,8 @@ Pygments template by Jan T. Sott (https://github.com/idleberg)
 Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
 
 */
-.highlight .hll { background-color: #49483e }
-.highlight  { background: #272822; color: #f9f8f5 }
+.highlight .hll { background-color: #49483e; } /* #49483e */
+.highlight  { background: $bg-black; color: #f9f8f5 }
 .highlight .c { color: #F1F1EF } /* Comment */
 .highlight .err { color: #f92672 } /* Error */
 .highlight .k { color: #ae81ff } /* Keyword */

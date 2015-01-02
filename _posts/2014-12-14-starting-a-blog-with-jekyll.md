@@ -17,7 +17,7 @@ So for all you non-programmers interested in Jekyll, this is for you.
 
 **But first!** I want to reiterate that I’m no programmer. I’m only somewhat familiar with Javascript and PHP. I can’t tell you how the engine behind Jekyll works. But, I can get you up in running in laymen’s terms.
 
-#### [Here we go!](http://youtu.be/k900hqBNc14)
+[Here we go!](http://youtu.be/k900hqBNc14)
 
 ## What we’re doing
 

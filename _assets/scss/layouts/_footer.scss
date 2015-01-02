@@ -1,5 +1,5 @@
 footer {
-	background-color: $black;
+	background-color: $bg-black;
 	text-align: center;
 	margin-top: $mb*6;
 	width: 100%;
@@ -59,7 +59,7 @@ img[class*="-follow"] {
 }
 
 img.rogin-icon {
-	border: 6px solid $black;
+	border: 6px solid $bg-black;
 	display: block;
 	@include border-radius(75px);
 	width: 85px;
