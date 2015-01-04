@@ -1,9 +1,10 @@
 h1.article-title {
 	color: $black;
-	font-size: $fs2;
+	font-size: 2.470588235em;
 	font-weight: 700;
-	line-height: 1;
-	margin: 1.57575758em 0 0.78787879em;
+	line-height: 1.23809524;
+	margin: 0.61904762em 0;
+	text-align: center;
 	a, a:visited {
 		@include transition(color 200ms ease);
 		border: none;
@@ -14,12 +15,16 @@ h1.article-title {
 		@include transition(color 200ms ease);
 		color: $red;
 	}
+	@media (min-width: 600px) {
+		margin-top: 1.23809524em;
+	}
 }
 
 h5.article-meta {
 	font-style: italic;
 	margin-bottom: 2.7em;
 	margin-top: 0;
+	text-align: center;
 }
 
 .subhead {
@@ -27,12 +32,13 @@ h5.article-meta {
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 .pagination {
 	margin: 0 auto;
 	overflow: hidden;
-	max-width: 600px;
+	max-width: 545px;
 	width: 100%;
 }
 

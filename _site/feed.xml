@@ -4,7 +4,7 @@
     <title type="text" xml:lang="en">Rogin Farrer</title>
     <link type="application/atom+xml" href="http://roginfarrer.com/feed" rel="self"/>
     <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2015-01-02T15:01:34-05:00</updated>
+    <updated>2015-01-04T00:15:28-05:00</updated>
     <id>http://roginfarrer.com</id>
     <author>
         <name>Rogin Farrer</name>
@@ -13,13 +13,11 @@
     
     
     <entry>
-        <title>Adding Archive and Delete Swipe Actions to Apple iOS Mail</title>
+        <title>Archiving, Deleting, and Apple iOS Mail</title>
         <link href="http://roginfarrer.com/archive-and-delete-ios-mail"/>
         <updated>2014-12-28T00:00:00-05:00</updated>
         <id>http://roginfarrer.com/ios-mail-archive-delete</id>
-        <content type="html">&lt;h4 class=&quot;subhead&quot;&gt;Using swiping to both archive and delete mail in Apple Mail&lt;/h4&gt;
-
-&lt;p&gt;While Dispatch is by and far a superior email client on the iPhone (at least in terms of functionality), I find myself still returning to the stock Mail app. Why? Well, for one, I find it pleasingly minimal. I like to use Dispatch for sending tasks to Things or articles to Instapaper, but the rest of its features, like snippets, is just bloat for me. Apple Mail also supports faster search.&lt;/p&gt;
+        <content type="html">&lt;p&gt;While Dispatch is by and far a superior email client on the iPhone (at least in terms of functionality), I find myself still returning to the stock Mail app. Why? Well, for one, I find it pleasingly minimal. I like to use Dispatch for sending tasks to Things or articles to Instapaper, but the rest of its features, like snippets, is just bloat for me. Apple Mail also supports faster search.&lt;/p&gt;
 
 &lt;p&gt;One big gripe I had about Apple Mail, though, was the limited options provided to you when you swipe on an email. For most people, swiping a message to the left gives you three options: trash (or archive), flag, or ‘more,’ which would give you a few more options. The problem for me is that you can easily &lt;em&gt;discard&lt;/em&gt; a message, but there’s no option to &lt;em&gt;archive&lt;/em&gt; a message. &lt;/p&gt;
 

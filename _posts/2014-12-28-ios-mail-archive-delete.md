@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Adding Archive and Delete Swipe Actions to Apple iOS Mail
+title: Archiving, Deleting, and Apple iOS Mail
 category: apple
 category_title: Apple
 permalink: archive-and-delete-ios-mail
 description: A quick tutorial on how to add a "swipe right" function to Apple Mail, so you can both swipe to archive AND swipe to delete mail. Hooray proper mail management!
+subhead: Using swiping to both archive and delete mail in Apple Mail
 ---
-
-<h4 class="subhead">Using swiping to both archive and delete mail in Apple Mail</h4>
 
 While Dispatch is by and far a superior email client on the iPhone (at least in terms of functionality), I find myself still returning to the stock Mail app. Why? Well, for one, I find it pleasingly minimal. I like to use Dispatch for sending tasks to Things or articles to Instapaper, but the rest of its features, like snippets, is just bloat for me. Apple Mail also supports faster search.
 

@@ -1,7 +1,7 @@
 header {
 	border-bottom: 1px dotted #c9c9c9;
 	margin: 0.7em auto 0;
-	max-width: 650px;
+	max-width: 725px;
 	padding-bottom: 0.5em;
 	width: 100%;
 	a {
@@ -15,7 +15,7 @@ header {
 		color: $black;
 		font-family: $body-font;
 		font-size: 19px;
-		font-weight: 700;
+		font-weight: 500;
 		font-variant: small-caps;
 		float: left;
 		margin: 0;
@@ -34,7 +34,7 @@ header {
 .cover-wrap {
 	margin: 0 auto;
 	width: 92%;
-	@media (min-width: 650px) {
+	@media (min-width: 725px) {
 		width: 100%;
 	}
 }
@@ -48,7 +48,7 @@ header {
 
 nav {
 	font-family: $heading-font;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 15px;
 	float: right;
 	margin: 0;
@@ -66,6 +66,9 @@ nav {
 			line-height: $lh;
 			padding: 0;
 			margin: 0 0.5em;
+			@media (min-width: 600px) {
+				margin: 0 0.75em;
+			}
 		}
 		li:last-of-type {
 			margin-right: 0;
@@ -73,6 +76,9 @@ nav {
 		li:first-of-type {
 			margin-left: 0;
 		}
+	}
+	@media (max-width: 400px) {
+		font-size: 16px;
 	}
 }
 

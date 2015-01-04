@@ -5,13 +5,16 @@ layout: default
 <section class="content cf">
   {% for post in site.posts limit:1 %}
     <article>
-			<h1 class="article-title"><a href="{{ site.base_url }}{{ post.permalink }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-          <p>{{ post.content }}</p>
-          <h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/category/{{ post.category }}">{{ post.category_title }}</a></h5>
-          
+			<div id="hgroup">
+				<h1 class="article-title"><a href="{{ site.base_url }}{{ post.permalink }}">{{ post.title }}</a></h1>
+				<h5 class="article-meta">{{ post.date | date: "%b %-d, %Y" }}</h5>
+			</div>
+			<p>{{ post.content }}</p>
+			<h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/category/{{ post.category }}">{{ post.category_title }}</a></h5>
     </article>
   {% endfor %}
-  <h1 class="latest">Latest Posts</h1>
+
+    <h1 class="latest">Latest Posts</h1>
 		{% for post in site.posts offset:1 limit:5 %}
 	<article class="loop">
 		<h2 id="home-titles">
