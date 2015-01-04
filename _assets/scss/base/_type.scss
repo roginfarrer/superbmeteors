@@ -108,12 +108,16 @@ blockquote {
 	border-left: 0.5em solid $red;
 	font-size: $fs3;
 	padding-left: 1.2em;
-	margin-left: -3.5em;
 	margin-top: $mb;
+	width: 100%;
 	p {
 		color: $gray;
 		font-style: italic;
 		margin-bottom: 1.3em;
+	}
+	@media (min-width: 600px) {
+		margin-left: -24.25%;
+		width: 148.5%;
 	}
 }
 

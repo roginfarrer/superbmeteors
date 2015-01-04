@@ -25,7 +25,7 @@ figcaption {
 	
 .alignleft {
 	float:left; 
-	margin-left: -15%;
+	margin-left: -24.25%;
 	margin-right: $mb; 
 	margin-top: 0.4em; 
 	width: 50%;
@@ -34,9 +34,25 @@ figcaption {
 .alignright {
 	float:right; 
 	margin-left: $mb; 
-	margin-right: -15%; 
+	margin-right: -24.25%; 
 	margin-top: 0.4em; 
 	width: 50%;
+}
+
+.alignleft,
+.alignright {
+	@media (max-width: 850px) {
+		display: block;
+		float: none;
+		max-width: 100%;
+		img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		figcaption {
+			text-align: center;
+		}
+	}
 }
 
 .aligncenter { 
@@ -51,10 +67,9 @@ figcaption {
 }
 
 .imgbleed { 
-	margin-left: -15%; 
-	width:130%;
+	margin-left: -24.25%; 
+	width:148.5%;
 	figcaption {
-		padding: 0;
 		text-align: center;
 	}
 }
