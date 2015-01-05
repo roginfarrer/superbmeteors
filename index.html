@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="content cf">
+<section class="content cf" role="latest-post-wrap">
   {% for post in site.posts limit:1 %}
     <article>
 			<div id="hgroup">
@@ -13,19 +13,18 @@ layout: default
 			<h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/category/{{ post.category }}">{{ post.category_title }}</a></h5>
     </article>
   {% endfor %}
+</section>
 
-    <h1 class="latest">Latest Posts</h1>
+<section class="content cf" role="loop">
+	<h1 class="latest">Latest Posts</h1>
 		{% for post in site.posts offset:1 limit:5 %}
-	<article class="loop">
-		<h2 id="home-titles">
-			<a href="{{ site.base_url }}{{ post.permalink }}" title="{{ post.title }}">{{ post.title }}</a>
-		</h2>
-		<p>{{ post.description }}</p>
-		<h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/category/{{ post.category }}">{{ post.category_title }}</a></h5>
-		<p>
-			<a class="read-more" href="{{ post.url }}" title="{{ post.title }}">Read more &#8594;</a>
-		</p>
-	</article>
-	{% endfor %}
-
+			<article class="loop">
+				<h2 id="home-titles">
+				<a href="{{ site.base_url }}{{ post.permalink }}" title="{{ post.title }}">{{ post.title }}</a>
+				</h2>
+				<p>{{ post.description }}</p>
+				<h5 class="loop-meta">Posted on {{ post.date | date: "%b %-d, %Y" }} in <a href="/category/{{ post.category }}">{{ post.category_title }}</a></h5>
+				<p><a class="read-more" href="{{ post.url }}" title="{{ post.title }}">Read more &#8594;</a></p>
+			</article>
+		{% endfor %}
 </section>
