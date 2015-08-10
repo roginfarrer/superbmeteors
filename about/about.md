@@ -4,22 +4,26 @@ title: About
 permalink: /about/
 ---
 
-My name is [Rogin](http://twitter.com/RoginFarrer). I'm a senior drama major at Vassar College, where I do mostly design and technical theater. In my free time I like to write and design and build web sites.
+Superb Meteors is written and produced by Rogin Farrer.
 
-<figure class="alignleft"><img class="about-photo" src="http://cdn.roginfarrer.com/rogin-avatar.jpg" alt="it's me!"  />
-<figcaption>My lovely mug.</figcaption>
-</figure>
+<img class="aligncenter" src="http://cdn.roginfarrer.com/rogin_pensive.jpg" />
 
-After a few years of teaching myself, I have a pretty good handle on HTML, CSS, SASS, and Wordpress. I'm comfortable with PHP and Javascript, and I'm getting better all the time.
+### Tools
 
-Whether I'm creating for the page or the stage, I'm passionate about **expression** and **story-telling**. I'm excited by the communication of ideas and emotion through performance, text, and design. 
+Superb Meteors is primarily published from a 2011 MacBook Pro.
 
-### What is this about?
+The site runs on [Jekyll](http://jekyllrb.com) with [Github Pages](http://github.com) for hosting. The type, delivered by [Typekit](http://typekit.com), is set in Rooney, Myriad Pro, and [Courier Prime](http://quoteunquoteapps.com/courierprime/).
 
-To be honest, I'm not sure yet. I like reading about and talking about tech, Apple, and design, so I'm sure you'll see a lot of that here. I can bet that a few of my other interests will slip in here, be it theater, productivity hacks, eating paleo, strength training, and well-being.
+Superb Meteors' design was created by yours truly with the help of [Brackets](http://brackets.io) and [f.lux](https://justgetflux.com).
 
-If you’d like to get updates from me, [sign up for blog posts via email]() (I promise, no spam!), or [follow me on Twitter](http://twitter.com/RoginFarrer), or [grab my RSS feed](/feed) if that’s your thing.
+Feel free to check out the [style guide](/styleguide).
 
-### Colophon
+<hr />
 
-I designed and built this site with [Jekyll](http://jekyllrb.com), [Github Pages](http://github.com) for hosting, [Sublime Text](http://sublimetext.com), [Sass](http://sass-lang.com), [Compass](http://compass-style.org), and [Typekit](http://typekit.com). All copy is set in Ratio, except for the code blocks, which is set in [Courier Prime](http://quoteunquoteapps.com/courierprime/). Feel free to check out the [style guide](/styleguide).
+### Contact
+
+Email: rogin@roginfarrer.com
+
+Twitter: [@RoginFarrer](http://twitter.com/roginfarrer)
+
+Theater portfolio: [roginfarrer.com](http://roginfarrer.com)
