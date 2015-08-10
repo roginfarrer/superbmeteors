@@ -7,11 +7,11 @@ markdown: 		 kramdown
 highlighter:   pygments
 permalink:     /:title.html
 
-name: Rogin Farrer
+name: Superb Meteors
 base_url: /
-url: http://roginfarrer.com
+url: http://superbmeteors.com
 description: "A blog covering Tech news, design, productivity, health, and the arts by Rogin Farrer."
-root_desc: "Rogin Farrer"
+root_desc: "Superb Meteors"
 
 exclude: ['Rakefile', 'README.markdown', 'README.md', 'config.rb']
 include: ['.htaccess']

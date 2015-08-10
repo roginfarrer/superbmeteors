@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     
-    <title type="text" xml:lang="en">Rogin Farrer</title>
-    <link type="application/atom+xml" href="http://roginfarrer.com/feed" rel="self"/>
-    <link type="text" href="http://roginfarrer.com" rel="alternate"/>
-    <updated>2015-01-04T20:57:26-05:00</updated>
-    <id>http://roginfarrer.com</id>
+    <title type="text" xml:lang="en">Superb Meteors</title>
+    <link type="application/atom+xml" href="http://superbmeteors.com/feed" rel="self"/>
+    <link type="text" href="http://superbmeteors.com" rel="alternate"/>
+    <updated>2015-08-09T22:04:36-04:00</updated>
+    <id>http://superbmeteors.com</id>
     <author>
         <name>Rogin Farrer</name>
     </author>
-    <rights>Copyright (c) 2014, Rogin Farrer; all rights reserved.</rights>
+    <rights>Copyright (c) 2015, Superb Meteors; all rights reserved.</rights>
     
     
     <entry>
         <title>Archiving, Deleting, and Apple iOS Mail</title>
-        <link href="http://roginfarrer.com/archive-and-delete-ios-mail"/>
+        <link href="http://superbmeteors.com/archive-and-delete-ios-mail"/>
         <updated>2014-12-28T00:00:00-05:00</updated>
-        <id>http://roginfarrer.com/ios-mail-archive-delete</id>
+        <id>http://superbmeteors.com/ios-mail-archive-delete</id>
         <content type="html">&lt;p&gt;While Dispatch is by and far a superior email client on the iPhone (at least in terms of functionality), I find myself still returning to the stock Mail app. Why? Well, for one, I find it pleasingly minimal. I like to use Dispatch for sending tasks to Things or articles to Instapaper, but the rest of its features, like snippets, is just bloat for me. Apple Mail also supports faster search.&lt;/p&gt;
 
 &lt;p&gt;One big gripe I had about Apple Mail, though, was the limited options provided to you when you swipe on an email. For most people, swiping a message to the left gives you three options: trash (or archive), flag, or ‘more,’ which would give you a few more options. The problem for me is that you can easily &lt;em&gt;discard&lt;/em&gt; a message, but there’s no option to &lt;em&gt;archive&lt;/em&gt; a message. &lt;/p&gt;
@@ -47,9 +47,9 @@
     
     <entry>
         <title>My Top Albums of 2014</title>
-        <link href="http://roginfarrer.com/top-albums-of-2014"/>
+        <link href="http://superbmeteors.com/top-albums-of-2014"/>
         <updated>2014-12-26T00:00:00-05:00</updated>
-        <id>http://roginfarrer.com/my-top-albums-of-2014</id>
+        <id>http://superbmeteors.com/my-top-albums-of-2014</id>
         <content type="html">&lt;h4 class=&quot;subhead&quot;&gt;I like music, and I like sharing music, so I thought I’d go over my favorite albums of the year.&lt;/h4&gt;
 
 &lt;p&gt;Just a warning: some of these albums aren’t from 2014, so&amp;#8230; Don’t get upset.&lt;/p&gt;
@@ -208,9 +208,9 @@
     
     <entry>
         <title>Hide Facebook's News Feed (And Other Annoyances)</title>
-        <link href="http://roginfarrer.com/quiet-facebook"/>
+        <link href="http://superbmeteors.com/quiet-facebook"/>
         <updated>2014-12-15T00:00:00-05:00</updated>
-        <id>http://roginfarrer.com/one-easy-hack-to-make-facebook-less-distracting</id>
+        <id>http://superbmeteors.com/one-easy-hack-to-make-facebook-less-distracting</id>
         <content type="html">&lt;h4 class=&quot;subhead&quot;&gt;How to eliminate Facebook&#39;s news feed for good.&lt;/h4&gt;
 
 &lt;p&gt;I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. &lt;/p&gt;
@@ -237,9 +237,9 @@
     
     <entry>
         <title>Starting A Blog With Jekyll</title>
-        <link href="http://roginfarrer.com/getting-started-with-jekyll"/>
+        <link href="http://superbmeteors.com/getting-started-with-jekyll"/>
         <updated>2014-12-14T00:00:00-05:00</updated>
-        <id>http://roginfarrer.com/starting-a-blog-with-jekyll</id>
+        <id>http://superbmeteors.com/starting-a-blog-with-jekyll</id>
         <content type="html">&lt;p&gt;Last week I rebuilt this site on &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, and it’s freaking awesome.&lt;/p&gt;
 
 &lt;p&gt;I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood how it worked. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.&lt;/p&gt;
@@ -404,9 +404,9 @@ compass create&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     
     <entry>
         <title>Hi, I'm Rogin</title>
-        <link href="http://roginfarrer.com/hi-im-rogin"/>
+        <link href="http://superbmeteors.com/hi-im-rogin"/>
         <updated>2014-11-29T00:00:00-05:00</updated>
-        <id>http://roginfarrer.com/hi-im-rogin</id>
+        <id>http://superbmeteors.com/hi-im-rogin</id>
         <content type="html">&lt;p&gt;For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less. &lt;/p&gt;
 
 &lt;p&gt;I haven’t published a post on &lt;a href=&quot;http://thedapperscholar.com&quot;&gt;The Dapper Scholar&lt;/a&gt; in 7 or 8 months, which I’ve decided to retire. I do keep a journal semi-regularly, but aside from the occasional &lt;a href=&quot;http://twitter.com/RoginFarrer&quot;&gt;Twitter post&lt;/a&gt;, I rarely write anything for other people to see. But with a revamped roginfarrer.com, I’m making a comeback. This is hopefully the first post of what will be a regular chain of posts for a good while.&lt;/p&gt;
