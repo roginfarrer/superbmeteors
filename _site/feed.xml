@@ -4,7 +4,7 @@
     <title type="text" xml:lang="en">Superb Meteors</title>
     <link type="application/atom+xml" href="http://superbmeteors.com/feed" rel="self"/>
     <link type="text" href="http://superbmeteors.com" rel="alternate"/>
-    <updated>2015-08-11T00:16:21-04:00</updated>
+    <updated>2015-08-11T00:22:22-04:00</updated>
     <id>http://superbmeteors.com</id>
     <author>
         <name>Rogin Farrer</name>
@@ -15,8 +15,8 @@
     <entry>
         <title>Book Review: The Martian by Andy Weir</title>
         <link href="http://superbmeteors.com/the-martian"/>
-        <updated>2015-08-11T00:08:53-04:00</updated>
-        <id>http://superbmeteors.com/2015-08-10-the_martian</id>
+        <updated>2015-08-10T00:00:00-04:00</updated>
+        <id>http://superbmeteors.com/the_martian</id>
         <content type="html">&lt;p&gt;After 8 long years I can finally read for pleasure again.&lt;/p&gt;
 
 &lt;figure class=&quot;alignright&quot;&gt;&lt;img src=&quot;http://cdn.roginfarrer.com/superbmeteors/The_Martian_2014.jpg&quot; alt=&quot;The Martian cover art&quot; /&gt;&lt;figcaption&gt;A+ for cover art.&lt;/figcaption&gt;&lt;/figure&gt;
