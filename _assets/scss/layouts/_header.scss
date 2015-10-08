@@ -23,9 +23,6 @@ header {
 		a, a:visited {
 			color: $red;
 		}
-		a:hover {
-			color: $red;
-		}
 	}
 	@media (min-width: 825px) {
 		padding-top: $mb*2;

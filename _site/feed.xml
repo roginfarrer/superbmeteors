@@ -4,7 +4,7 @@
     <title type="text" xml:lang="en">Superb Meteors</title>
     <link type="application/atom+xml" href="http://superbmeteors.com/feed" rel="self"/>
     <link type="text" href="http://superbmeteors.com" rel="alternate"/>
-    <updated>2015-08-11T00:22:22-04:00</updated>
+    <updated>2015-10-08T11:02:37-04:00</updated>
     <id>http://superbmeteors.com</id>
     <author>
         <name>Rogin Farrer</name>
@@ -42,11 +42,11 @@
 
 &lt;p&gt;As I said, it’s pretty much all about survival and science. If you’re all about character development and relationships, this story isn’t really about that. I wish Weir had explored more of Watney’s psychology. He’s either excited, bored, tired, or mildly lonely. You might think that someone who spends a year-and-a-half alone on a foreign, inhospitable planet would experience more psychological trauma. Or perhaps growth! Watney at the end is pretty much the same as Watney at the beginning.&lt;/p&gt;
 
-&lt;p&gt;Weir eventually weaves Houston and his crew into the narrative, and he attempts some unconventional play with structure. I found it distracting more than anything. In fact, I found myself skipping over sections to get back to the part of the narrative I cared about. Towards the end, he disrupts the first-person structure of Watney’s logs and breaks into an omniscient narrator that reads like a documentarist. This happens more than once in short, but verbose sections that makes you think the story is taking a turn, but then he returns to the established structure. I found it unnatural and baiting—I mean, most of the story is told through Watney’s logs, so the reveal of the story being told as a documentary &lt;em&gt;would&lt;/em&gt; make a lot of sense. &lt;/p&gt;
+&lt;p&gt;Weir eventually weaves Houston and his crew into the narrative, and he attempts some unconventional play with structure. I found it distracting more than anything. In fact, I found myself skipping over sections to get back to the part of the narrative I cared about. Towards the end, he disrupts the first-person structure of Watney’s logs and breaks into an omniscient narrator that reads like a documentarist. This happens more than once in short, but verbose sections that makes you think the story is taking a turn, but then he returns to the established structure. I found it unnatural and baiting—I mean, most of the story is told through Watney’s logs, so the reveal of the story being told as a documentary &lt;em&gt;would&lt;/em&gt; make a lot of sense.&lt;/p&gt;
 
 &lt;h2 id=&quot;stars&quot;&gt;3/5 Stars&lt;/h2&gt;
 
-&lt;p&gt;What’s my final conclusion? &lt;em&gt;The Martian&lt;/em&gt; is fine. The pace, Watney’s humor, and life-and-death circumstances kept me turning the pages. It made for a great book to get me reading again. &lt;/p&gt;
+&lt;p&gt;What’s my final conclusion? &lt;em&gt;The Martian&lt;/em&gt; is fine. The pace, Watney’s humor, and life-and-death circumstances kept me turning the pages. It made for a great book to get me reading again.&lt;/p&gt;
 </content>
     </entry>
     
@@ -57,7 +57,7 @@
         <id>http://superbmeteors.com/ios-mail-archive-delete</id>
         <content type="html">&lt;p&gt;While Dispatch is by and far a superior email client on the iPhone (at least in terms of functionality), I find myself still returning to the stock Mail app. Why? Well, for one, I find it pleasingly minimal. I like to use Dispatch for sending tasks to Things or articles to Instapaper, but the rest of its features, like snippets, is just bloat for me. Apple Mail also supports faster search.&lt;/p&gt;
 
-&lt;p&gt;One big gripe I had about Apple Mail, though, was the limited options provided to you when you swipe on an email. For most people, swiping a message to the left gives you three options: trash (or archive), flag, or ‘more,’ which would give you a few more options. The problem for me is that you can easily &lt;em&gt;discard&lt;/em&gt; a message, but there’s no option to &lt;em&gt;archive&lt;/em&gt; a message. &lt;/p&gt;
+&lt;p&gt;One big gripe I had about Apple Mail, though, was the limited options provided to you when you swipe on an email. For most people, swiping a message to the left gives you three options: trash (or archive), flag, or ‘more,’ which would give you a few more options. The problem for me is that you can easily &lt;em&gt;discard&lt;/em&gt; a message, but there’s no option to &lt;em&gt;archive&lt;/em&gt; a message.&lt;/p&gt;
 
 &lt;p&gt;You can rotate out the trash option for archive, but then you can’t delete the message, etc, etc.&lt;/p&gt;
 
@@ -251,7 +251,7 @@
         <id>http://superbmeteors.com/one-easy-hack-to-make-facebook-less-distracting</id>
         <content type="html">&lt;h4 class=&quot;subhead&quot;&gt;How to eliminate Facebook&#39;s news feed for good.&lt;/h4&gt;
 
-&lt;p&gt;I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it. &lt;/p&gt;
+&lt;p&gt;I’m not a big fan of Facebook, but because so much of my social life and connections operate through their service, I don’t really feel like I can quit it.&lt;/p&gt;
 
 &lt;p&gt;Still, I really hate how distracting it can be. We’ve all gone down the never-ending vortex that is the news feed.&lt;/p&gt;
 
@@ -263,7 +263,7 @@
 
 &lt;p&gt;The first thing I eliminated was the news feed, which I accomplished by using Max Friedrich’s &lt;a href=&quot;https://github.com/maxfriedrich/quiet-facebook&quot;&gt;Quiet Facebook&lt;/a&gt;, a custom stylesheet that cleanly removes the news feed from the web page.&lt;/p&gt;
 
-&lt;p&gt;That satisfied for me for a while, but then I started finding other elements on the  page to distract me, like TRENDING NEWS (ugh). So I made an addition to the stylesheet to block out Trending News and Suggested Pages/Groups. &lt;/p&gt;
+&lt;p&gt;That satisfied for me for a while, but then I started finding other elements on the  page to distract me, like TRENDING NEWS (ugh). So I made an addition to the stylesheet to block out Trending News and Suggested Pages/Groups.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/roginfarrer/quiet-facebook&quot;&gt;Download my updated stylesheet here.&lt;/a&gt;&lt;/p&gt;
 
@@ -282,7 +282,7 @@
 
 &lt;p&gt;I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood how it worked. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.&lt;/p&gt;
 
-&lt;p&gt;But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open each telling me what to do. &lt;/p&gt;
+&lt;p&gt;But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open each telling me what to do.&lt;/p&gt;
 
 &lt;p&gt;So for all you non-programmers interested in Jekyll, this is for you.&lt;/p&gt;
 
@@ -312,7 +312,7 @@
 
 &lt;p&gt;Jekyll works in a similar way. &lt;em&gt;Except there’s no PHP.&lt;/em&gt; Instead of calling the header with something like &lt;code&gt;&amp;lt;?php get_header(); ?&amp;gt;&lt;/code&gt;, we will use Liquid tags, which look like this: &lt;code&gt;{ % include header.html % }&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;So now we understand two portions of the Jekyll directory. We have a &lt;code&gt;_layouts&lt;/code&gt; folder that holds are page templates (i.e., posts, pages, homepage, and more). We also have an &lt;code&gt;_includes&lt;/code&gt; folder for modules we use across every page, like the HTML head, header, and footer. &lt;/p&gt;
+&lt;p&gt;So now we understand two portions of the Jekyll directory. We have a &lt;code&gt;_layouts&lt;/code&gt; folder that holds are page templates (i.e., posts, pages, homepage, and more). We also have an &lt;code&gt;_includes&lt;/code&gt; folder for modules we use across every page, like the HTML head, header, and footer.&lt;/p&gt;
 
 &lt;p&gt;We also have a &lt;code&gt;_posts&lt;/code&gt; folder for our blog posts, a &lt;code&gt;_sass&lt;/code&gt; folder for our not-yet-synthesized SCSS files, and a &lt;code&gt;css&lt;/code&gt; folder for our synthesized CSS files.&lt;/p&gt;
 
@@ -326,7 +326,7 @@
 
 &lt;p&gt;Navigate to where you want your Jekyll installation to live, and create a folder for the project. I’ll call it &lt;code&gt;jekyll&lt;/code&gt; for simplicity’s sake.&lt;/p&gt;
 
-&lt;p&gt;Now open up Terminal. It’s time to install Jekyll and some of the tools we need. &lt;/p&gt;
+&lt;p&gt;Now open up Terminal. It’s time to install Jekyll and some of the tools we need.&lt;/p&gt;
 
 &lt;h3 id=&quot;install-jekyll&quot;&gt;Install Jekyll&lt;/h3&gt;
 
@@ -420,11 +420,11 @@ compass create&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;easy-deployment&quot;&gt;Easy deployment&lt;/h3&gt;
 
-&lt;p&gt;While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client. &lt;/p&gt;
+&lt;p&gt;While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client.&lt;/p&gt;
 
-&lt;p&gt;In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which. &lt;/p&gt;
+&lt;p&gt;In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which.&lt;/p&gt;
 
-&lt;p&gt;Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy. &lt;/p&gt;
+&lt;p&gt;Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy.&lt;/p&gt;
 
 &lt;h3 id=&quot;flexibility&quot;&gt;Flexibility&lt;/h3&gt;
 
@@ -445,13 +445,13 @@ compass create&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         <link href="http://superbmeteors.com/hi-im-rogin"/>
         <updated>2014-11-29T00:00:00-05:00</updated>
         <id>http://superbmeteors.com/hi-im-rogin</id>
-        <content type="html">&lt;p&gt;For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less. &lt;/p&gt;
+        <content type="html">&lt;p&gt;For a few years now I’ve called myself a writer. But it seems that I’ve been writing less and less.&lt;/p&gt;
 
 &lt;p&gt;I haven’t published a post on &lt;a href=&quot;http://thedapperscholar.com&quot;&gt;The Dapper Scholar&lt;/a&gt; in 7 or 8 months, which I’ve decided to retire. I do keep a journal semi-regularly, but aside from the occasional &lt;a href=&quot;http://twitter.com/RoginFarrer&quot;&gt;Twitter post&lt;/a&gt;, I rarely write anything for other people to see. But with a revamped roginfarrer.com, I’m making a comeback. This is hopefully the first post of what will be a regular chain of posts for a good while.&lt;/p&gt;
 
 &lt;h3 id=&quot;so-what-is-this-about&quot;&gt;So… what is this about?&lt;/h3&gt;
 
-&lt;p&gt;I don’t want to put any constraints on my writing right now because I’m not sure what I want to focus on. I want to write about the things I care about, and maybe someday the topic of this site will flesh out into a focused subject. &lt;/p&gt;
+&lt;p&gt;I don’t want to put any constraints on my writing right now because I’m not sure what I want to focus on. I want to write about the things I care about, and maybe someday the topic of this site will flesh out into a focused subject.&lt;/p&gt;
 
 &lt;p&gt;However, I &lt;em&gt;can&lt;/em&gt; drop a few hints about the things running through my mind, which will give you an idea of what I’ll be writing about soon:&lt;/p&gt;
 
@@ -462,7 +462,7 @@ compass create&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &lt;li&gt;I’m at the cusp at my weight loss goal, and it’s been difficult physically and emotionally. My insecurities about my body are as strong as they were at the beginning of journey. My diet is primarily paleo and I’ve been practicing &lt;a href=&quot;http://stronglifts.com&quot;&gt;Stronglifts 5x5&lt;/a&gt; for a while now.&lt;/li&gt;
   &lt;li&gt;I’m wondering about why I’m doing this (that is, writing this blog). I wonder if I can keep this up in the long term. I’m wondering how much I’m doing this for myself and how much I’m doing this for attention and an audience.&lt;/li&gt;
   &lt;li&gt;I’ve had the web design bug for a while now, and I love talking about typography, CMSs, and workflows.&lt;/li&gt;
-  &lt;li&gt;I’m still as much a tech nerd and Apple fanboy as I’ve ever been. I think way too much about productivity and productivity workflows. &lt;/li&gt;
+  &lt;li&gt;I’m still as much a tech nerd and Apple fanboy as I’ve ever been. I think way too much about productivity and productivity workflows.&lt;/li&gt;
   &lt;li&gt;I have a lot of the same interests as I always have: fountain pens, menswear, design, literature, and philosophy.&lt;/li&gt;
 &lt;/ul&gt;
 

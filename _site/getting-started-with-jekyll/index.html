@@ -20,6 +20,15 @@
   <link rel="alternate" type="application/atom+xml" title="" href="http://superbmeteors.com/feed/" />
 	<link rel="canonical" href="/getting-started-with-jekyll" />
   
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+														})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-48816837-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+  
   <!-- Typekit -->
 	<script src="//use.typekit.net/qco5nqx.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -52,7 +61,7 @@
 
 <p>I’ve heard the name Jekyll tossed around on the interwebs for a while now, but I never completely understood how it worked. When I pulled up their homepage, I immediately closed the page with just a hint that I would have to use Terminal.</p>
 
-<p>But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open each telling me what to do. </p>
+<p>But the truth is, Jekyll isn’t all that complicated, once you break it down into its parts. It took me a whole day to figure it out, port over my css and html, and configure it for live deployment. But that was because I had about 10 tabs open each telling me what to do.</p>
 
 <p>So for all you non-programmers interested in Jekyll, this is for you.</p>
 
@@ -82,7 +91,7 @@
 
 <p>Jekyll works in a similar way. <em>Except there’s no PHP.</em> Instead of calling the header with something like <code>&lt;?php get_header(); ?&gt;</code>, we will use Liquid tags, which look like this: <code>{ % include header.html % }</code>.</p>
 
-<p>So now we understand two portions of the Jekyll directory. We have a <code>_layouts</code> folder that holds are page templates (i.e., posts, pages, homepage, and more). We also have an <code>_includes</code> folder for modules we use across every page, like the HTML head, header, and footer. </p>
+<p>So now we understand two portions of the Jekyll directory. We have a <code>_layouts</code> folder that holds are page templates (i.e., posts, pages, homepage, and more). We also have an <code>_includes</code> folder for modules we use across every page, like the HTML head, header, and footer.</p>
 
 <p>We also have a <code>_posts</code> folder for our blog posts, a <code>_sass</code> folder for our not-yet-synthesized SCSS files, and a <code>css</code> folder for our synthesized CSS files.</p>
 
@@ -96,7 +105,7 @@
 
 <p>Navigate to where you want your Jekyll installation to live, and create a folder for the project. I’ll call it <code>jekyll</code> for simplicity’s sake.</p>
 
-<p>Now open up Terminal. It’s time to install Jekyll and some of the tools we need. </p>
+<p>Now open up Terminal. It’s time to install Jekyll and some of the tools we need.</p>
 
 <h3 id="install-jekyll">Install Jekyll</h3>
 
@@ -190,11 +199,11 @@ compass create</code></pre></div>
 
 <h3 id="easy-deployment">Easy deployment</h3>
 
-<p>While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client. </p>
+<p>While Wordpress is a powerful platform in its own right, modifying your theme files is tedious and disorganized. As someone who is constantly making tweaks to my site’s source files, I’d have to jump through many hoops to do so in Wordpress. To try any changes locally, I’d have to make sure I had an updated directory on my computer, make my changes, then use FTP to overwrite the files on my host’s server. If I wanted to make changes directly to my live site, I’d either have to use Wordpress’s clunky file editor or edit through the FTP client.</p>
 
-<p>In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which. </p>
+<p>In this case, I’d have numerous versions of my theme all over my drive, and could never be sure of which version was which.</p>
 
-<p>Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy. </p>
+<p>Jekyll keeps your local directory and the deployed directory in sync. I can use my local directory to easily and quickly make changes, and with a click of a button, it can be synced to my deployed repository. Easy-peasy.</p>
 
 <h3 id="flexibility">Flexibility</h3>
 
